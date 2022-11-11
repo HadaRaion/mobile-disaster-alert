@@ -1,0 +1,24 @@
+$blood-red: #910004;
+$tomato-red: #ff2300;
+$black: #000;
+$greyish-brown: #444;
+$brownish-grey: #6d6d6d;
+$warm-grey: #7f7f7f;
+$greyish: #a9a9a9;
+$pinkish-grey: #d1d1d1;
+$white: #e3e3e3;
+
+:root {
+	--header-height: 3rem;
+	--nav-height: 56px;
+	--layout-margin: 1rem;
+	--layout-max-width: 1318px;
+}
+
+@include atFull {
+	:root {
+		--header-height: 52rem;
+		--nav-height: 60px;
+		--layout-margin: 2rem;
+	}
+}

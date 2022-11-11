@@ -1,0 +1,11 @@
+@mixin atFull {
+	@media (min-width: 691px) {
+		@content;
+	}
+}
+
+@mixin atTablet {
+	@media (min-width: 822px) {
+		@content;
+	}
+}

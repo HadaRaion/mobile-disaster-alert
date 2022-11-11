@@ -1,0 +1,33 @@
+{
+	"name": "재난경보",
+	"version": "1.0",
+	"description": "차량용 재난 약자를 위한 재난경보",
+	"scripts": {
+		"start": "webpack serve",
+		"watch": "webpack --watch",
+		"build": "NODE_ENV=production webpack"
+	},
+	"author": "Hada Jang",
+	"license": "ISC",
+	"devDependencies": {
+		"@babel/core": "^7.16.7",
+		"@babel/preset-env": "^7.16.7",
+		"babel-loader": "^8.2.3",
+		"css-loader": "^6.5.1",
+		"fs-extra": "^10.0.0",
+		"html-loader": "^0.5.5",
+		"html-webpack-plugin": "^5.5.0",
+		"mini-css-extract-plugin": "^2.4.6",
+		"postcss": "^8.4.5",
+		"postcss-loader": "^6.2.1",
+		"postcss-preset-env": "^7.2.0",
+		"sass": "^1.47.0",
+		"sass-loader": "^12.4.0",
+		"webpack": "^5.65.0",
+		"webpack-cli": "^4.9.1",
+		"webpack-dev-server": "^4.6.0"
+	},
+	"dependencies": {
+		"normalize.css": "^8.0.1"
+	}
+}
