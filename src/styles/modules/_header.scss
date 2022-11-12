@@ -1,0 +1,45 @@
+header {
+	width: 100%;
+	height: var(--header-height);
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+
+	.container {
+		display: flex;
+		height: 100%;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.menu {
+		width: 24px;
+		height: 24px;
+		background-color: red;
+	}
+
+	.logo {
+		display: flex;
+		align-items: center;
+		color: $warm-grey;
+		font-weight: 700;
+		font-size: 1rem;
+
+		img {
+			width: 24px;
+			height: 24px;
+			margin-right: 6px;
+		}
+
+		p {
+			transform: translateY(1px);
+		}
+	}
+
+	.setting {
+		width: 24px;
+		height: 24px;
+		background-color: blue;
+	}
+}

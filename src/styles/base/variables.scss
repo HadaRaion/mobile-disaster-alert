@@ -17,8 +17,8 @@ $white: #e3e3e3;
 
 @include atFull {
 	:root {
-		--header-height: 52rem;
+		--header-height: 52px;
 		--nav-height: 60px;
-		--layout-margin: 2rem;
+		--layout-margin: 20px;
 	}
 }
