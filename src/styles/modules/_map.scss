@@ -19,6 +19,16 @@
 	width: 100%;
 	position: absolute;
 	top: 1rem;
+
+	@include atFull {
+		width: 388px;
+		right: var(--layout-margin);
+
+		.container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
 }
 
 .bottom {
@@ -27,6 +37,10 @@
 	justify-content: center;
 	position: fixed;
 	bottom: calc(24px + var(--nav-height));
+
+	@include atFull {
+		bottom: calc(34px + var(--nav-height));
+	}
 }
 
 .m05 {

@@ -9,6 +9,12 @@
 		overflow: hidden;
 		margin: 0 auto;
 
+		@include atFull {
+			width: 150px;
+			height: 42px;
+			border-radius: 21px;
+		}
+
 		& > a {
 			height: 100%;
 			display: flex;
@@ -20,12 +26,24 @@
 			width: 20px;
 			height: 20px;
 			background-image: url('../images/icons/icon-pin-sm.svg');
+			background-size: cover;
 			transform: translateY(-2px) translateX(-4px);
+
+			@include atFull {
+				width: 24px;
+				height: 24px;
+				transform: translateY(-3px) translateX(-6px);
+			}
 		}
 
 		&__text {
 			font-size: 12px;
 			font-weight: bold;
+
+			@include atFull {
+				font-size: 1rem;
+				transform: translateY(1px);
+			}
 		}
 	}
 
@@ -41,6 +59,11 @@
 		align-items: center;
 		justify-content: center;
 
+		@include atFull {
+			width: 70px;
+			height: 70px;
+		}
+
 		&.active {
 			background-color: $tomato-red;
 			color: #fff;
@@ -52,6 +75,11 @@
 			height: 24px;
 			background-image: url('../images/icons/icon-alert.svg');
 			background-size: cover;
+
+			@include atFull {
+				width: 32px;
+				height: 32px;
+			}
 
 			&.active {
 				background-image: url('../images/icons/icon-alert-white.svg');

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345" height="642" viewBox="0 0 345 642">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1949" data-name="사각형 1949" width="345" height="642" transform="translate(0 140)" fill="#800"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_47" data-name="마스크 그룹 47" transform="translate(0 -140)" clip-path="url(#clip-path)">
+    <g id="그룹_590" data-name="그룹 590">
+      <g id="그룹_587" data-name="그룹 587" transform="translate(-284.234 256.061) rotate(-44)">
+        <line id="선_3" data-name="선 3" x1="113.552" y2="259.644" transform="translate(107.209 374.678)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5" stroke-dasharray="0.2 5"/>
+        <path id="다각형_1" data-name="다각형 1" d="M5,0l5,10H0Z" transform="translate(220.578 361.807) rotate(22)"/>
+        <path id="다각형_2" data-name="다각형 2" d="M5,0l5,10H0Z" transform="translate(107.785 647.35) rotate(-158)"/>
+      </g>
+      <g id="그룹_524" data-name="그룹 524" transform="translate(16.878 104.474)">
+        <rect id="사각형_1838" data-name="사각형 1838" width="63" height="21" rx="10.5" transform="translate(136 388)"/>
+        <text id="_6.7_km" data-name="6.7 km" transform="translate(168 403)" fill="#fff" font-size="12" font-family="SpoqaHanSansNeo-Medium, Spoqa Han Sans Neo" font-weight="500"><tspan x="-19.188" y="0">6.7 km</tspan></text>
+      </g>
+    </g>
+    <g id="lacation" transform="translate(230.111 652)">
+      <path id="패스_997" data-name="패스 997" d="M17.315,25.063A7.35,7.35,0,0,0,24.678,17.7a7.577,7.577,0,0,0-7.363-7.626,7.35,7.35,0,0,0-7.363,7.363A7.761,7.761,0,0,0,17.315,25.063ZM4.956,5.078A17.479,17.479,0,1,1,29.675,29.8L17.315,42.156,4.956,29.8A17.956,17.956,0,0,1,4.956,5.078Z" transform="translate(-0.025 0.05)" fill="#910004" fill-rule="evenodd"/>
+      <circle id="타원_272" data-name="타원 272" cx="11" cy="11" r="11" transform="translate(6 6.103)" fill="#910004"/>
+      <circle id="타원_273" data-name="타원 273" cx="7" cy="7" r="7" transform="translate(10 10.103)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

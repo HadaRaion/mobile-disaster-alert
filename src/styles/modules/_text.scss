@@ -16,10 +16,26 @@
 
 .t-lg {
 	font-size: 20px;
+
+	@include atFull {
+		font-size: 25px;
+	}
+}
+
+.t-md {
+	font-size: 1rem;
+
+	@include atFull {
+		font-size: 20px;
+	}
 }
 
 .t-sm {
 	font-size: 12px;
+
+	@include atFull {
+		font-size: 15px;
+	}
 }
 
 .t-white {

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>산불경보</title>
+	</head>
+	<body class="guide-page m29">
+		${require('./htmls/header-forest-fires.html')}
+		<main>
+			<div class="map">
+				<div class="map__bg">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m29-1-map.webp" />
+						<source media="(min-width: 690px)" srcset="./images/m29-1-map-lg.webp" />
+						<img src="./images/m29-1-map.webp" alt="지도" />
+					</picture>
+				</div>
+
+				<div class="map__distance">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m29-distance.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m29-distance-lg.svg" />
+						<img src="./images/m29-distance.svg" alt="지도" />
+					</picture>
+				</div>
+
+				<div class="map__pin">
+					<img src="./images/pin-fire.svg" alt="화재지점 이미지" />
+				</div>
+			</div>
+
+			<section class="top">
+				<div class="container">
+					<div class="guide">
+						<div class="guide__title">
+							<p class="t-tomato t-bold t-center t-md">내 위치 긴급 대피요령</p>
+							<button class="btn-close">
+								<i class="close"></i>
+							</button>
+						</div>
+
+						<div class="guide__content">
+							<p class="t-lg t-center">
+								청주시 흥덕구 비하동<br />
+								부모산에 산불이 발생하여<br />
+								중부고속도로 35번<br />
+								서청주 IC 방면 통제 중이니<br />
+								경부고속도로 1번 옥산 방면으로<br />
+								우회하시기 바랍니다.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="btn--link">
+					<a href="./m29.html">
+						<span class="btn--link__text t-point">산불경보 보기</span>
+					</a>
+				</div>
+			</section>
+
+			<button class="btn--guide">
+				<i class="btn--guide__icon"></i>
+				<span class="btn--guide__text">대피요령</span>
+			</button>
+		</main>
+		${require('./htmls/nav-forest-fires.html')}
+	</body>
+</html>

@@ -43,6 +43,10 @@ nav {
 				background-image: url('../images/icons/icon-camera-dark.svg');
 			}
 
+			.nav-icon--navigation {
+				background-image: url('../images/icons/icon-direction-dark.svg');
+			}
+
 			.nav-icon--tipoff {
 				background-image: url('../images/icons/icon-write-dark.svg');
 			}
@@ -70,15 +74,23 @@ nav {
 		&--info {
 			background-image: url('../images/icons/icon-info.svg');
 		}
+
 		&--news {
 			background-image: url('../images/icons/icon-video.svg');
 		}
+
 		&--guide {
 			background-image: url('../images/icons/icon-exit.svg');
 		}
+
 		&--cctv {
 			background-image: url('../images/icons/icon-camera.svg');
 		}
+
+		&--navigation {
+			background-image: url('../images/icons/icon-direction.svg');
+		}
+
 		&--tipoff {
 			background-image: url('../images/icons/icon-write.svg');
 		}

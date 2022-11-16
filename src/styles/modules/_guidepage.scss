@@ -19,5 +19,9 @@
 		position: fixed;
 		bottom: calc(13px + var(--nav-height));
 		right: var(--layout-margin);
+
+		@include atFull {
+			bottom: calc(20px + var(--nav-height));
+		}
 	}
 }

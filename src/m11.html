@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>태풍경보</title>
+	</head>
+	<body class="alert-page m11">
+		${require('./htmls/header-typhoon.html')}
+		<main>
+			<div class="map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m11-map.svg" />
+					<source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.webp" />
+					<img src="./images/m11-map.svg" alt="지도" />
+				</picture>
+			</div>
+
+			<section class="top">
+				<div class="container">
+					<div class="alert-title">
+						<i class="blinkey"></i>
+						<p class="t-white t-bold t-md">오늘 6시 서귀포시 홍수 주의보 발령</p>
+						<button class="btn-open">
+							<i class="arrow"></i>
+						</button>
+					</div>
+					<div class="alert-content">
+						<p class="t-white t-lg t-center">
+							태풍 12호 힌남노<br />
+							제주 북동쪽에서 북상 중.<br /><br />
+
+							태풍이 지나가면서<br />
+							제주 서귀포시에서는<br />
+							도로가 침수되고<br />
+							간판이 흔들리는 등 피해가<br />
+							잇따르고 있으니<br />
+							안전에 주의 바랍니다.
+						</p>
+
+						<p class="t-white t-sm t-center">[기상청] 11.4(금) 10시 기준</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="btn--link">
+					<a href="./m11-1.html">
+						<span class="btn--link__icon"></span>
+						<span class="btn--link__text t-point">내위치 보기</span>
+					</a>
+				</div>
+			</section>
+		</main>
+		${require('./htmls/nav-flood.html')}
+	</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>태풍경보</title>
+	</head>
+	<body class="alert-page m11">
+		${require('./htmls/header-typhoon.html')}
+		<main>
+			<div class="map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m11-map.svg" />
+					<source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.webp" />
+					<img src="./images/m11-map.svg" alt="지도" />
+				</picture>
+			</div>
+
+			<section class="top">
+				<div class="container">
+					<div class="alert-title">
+						<i class="blinkey"></i>
+						<p class="t-white t-bold t-md">오늘 9시 강릉 해일 주의보 발령</p>
+						<button class="btn-open">
+							<i class="arrow"></i>
+						</button>
+					</div>
+					<div class="alert-content">
+						<p class="t-white t-lg t-center">
+							오늘 오전 09시 32분<br />
+							강릉, 속초 강원고성 양양,<br />
+							해일 주의보 발령.<br />
+							<br />
+							해당 지역 주민들은<br />
+							대피 준비를 하시고, 곧 이어 발표될<br />
+							해일 예상 도달 시각을<br />
+							확인해 주시기 바랍니다.<br />
+						</p>
+
+						<p class="t-white t-sm t-center">[행정안전부] 11.4(금) 10시 기준</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="btn--link">
+					<a href="./m23-1.html">
+						<span class="btn--link__icon"></span>
+						<span class="btn--link__text t-point">내위치 보기</span>
+					</a>
+				</div>
+			</section>
+		</main>
+		${require('./htmls/nav-tsunami.html')}
+	</body>
+</html>

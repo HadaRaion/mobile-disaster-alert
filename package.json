@@ -5,7 +5,8 @@
 	"scripts": {
 		"start": "webpack serve",
 		"watch": "webpack --watch",
-		"build": "NODE_ENV=production webpack"
+		"build": "NODE_ENV=production webpack",
+		"build-dev": "webpack"
 	},
 	"author": "Hada Jang",
 	"license": "ISC",
@@ -26,8 +27,5 @@
 		"webpack": "^5.65.0",
 		"webpack-cli": "^4.9.1",
 		"webpack-dev-server": "^4.6.0"
-	},
-	"dependencies": {
-		"normalize.css": "^8.0.1"
 	}
 }
