@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="345" height="642" viewBox="0 0 345 642">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1949" data-name="사각형 1949" width="345" height="642" transform="translate(0 140)" fill="#800"/>
+    </clipPath>
+  </defs>
+  <g id="m05-pin" transform="translate(0 -140)" clip-path="url(#clip-path)">
+    <path id="패스_1138" data-name="패스 1138" d="M1281.667,1778.667s-66-134-70-138-21-84.667-21-84.667L1217,1442" transform="translate(-1164 -996)" fill="none" stroke="#5c6bb7" stroke-width="2"/>
+    <circle id="타원_269" data-name="타원 269" cx="6" cy="6" r="6" transform="translate(21 554)" fill="#5c6bb7"/>
+    <circle id="타원_270" data-name="타원 270" cx="6" cy="6" r="6" transform="translate(41 639)" fill="#5c6bb7"/>
+    <line id="선_3" data-name="선 3" x1="159.946" y2="252.281" transform="translate(148.038 182.991) rotate(16)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="2.5" stroke-dasharray="0.2 5"/>
+    <path id="다각형_1" data-name="다각형 1" d="M5,0l5,10H0Z" transform="matrix(0.719, 0.695, -0.695, 0.719, 303.992, 218.128)"/>
+    <path id="다각형_2" data-name="다각형 2" d="M5,0l5,10H0Z" transform="matrix(-0.719, -0.695, 0.695, -0.719, 74.489, 436.004)"/>
+    <rect id="사각형_1838" data-name="사각형 1838" width="63" height="21" rx="10.5" transform="translate(168 306)"/>
+    <text id="_289_km" data-name="289 km" transform="translate(200 321)" fill="#fff" font-size="12" font-family="SpoqaHanSansNeo-Medium, Spoqa Han Sans Neo" font-weight="500"><tspan x="-21.174" y="0">289 km</tspan></text>
+    <g id="lacation" transform="translate(292 174)">
+      <path id="패스_997" data-name="패스 997" d="M17.315,25.063A7.35,7.35,0,0,0,24.678,17.7a7.577,7.577,0,0,0-7.363-7.626,7.35,7.35,0,0,0-7.363,7.363A7.761,7.761,0,0,0,17.315,25.063ZM4.956,5.078A17.479,17.479,0,1,1,29.675,29.8L17.315,42.156,4.956,29.8A17.956,17.956,0,0,1,4.956,5.078Z" transform="translate(-0.025 0.05)" fill="#910004" fill-rule="evenodd"/>
+      <circle id="타원_272" data-name="타원 272" cx="11" cy="11" r="11" transform="translate(6 6.103)" fill="#910004"/>
+      <circle id="타원_273" data-name="타원 273" cx="7" cy="7" r="7" transform="translate(10 10.103)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

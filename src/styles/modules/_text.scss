@@ -1,3 +1,31 @@
 .t-point {
 	font-family: 'S Core Dream', sans-serif;
 }
+
+.t-bold {
+	font-weight: bold;
+}
+
+.t-center {
+	text-align: center;
+}
+
+.t-xl {
+	font-size: 24px;
+}
+
+.t-lg {
+	font-size: 20px;
+}
+
+.t-sm {
+	font-size: 12px;
+}
+
+.t-white {
+	color: #fff;
+}
+
+.t-tomato {
+	color: $tomato-red;
+}

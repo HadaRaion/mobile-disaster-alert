@@ -1,10 +1,9 @@
 main {
+	position: relative;
 	margin-top: var(--header-height);
 	margin-bottom: var(--nav-height);
 	width: 100%;
 	min-height: calc(100vh - var(--header-height) - var(--nav-height));
-
-	border: 1px solid red;
 
 	@include atFull {
 		background-color: red;

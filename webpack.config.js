@@ -72,7 +72,7 @@ module.exports = {
 				],
 			},
 			{
-				test: /\.(png|jpe?g|gif|svg)$/i,
+				test: /\.(webp|png|jpe?g|gif|svg)$/i,
 				type: 'asset/resource',
 			},
 			{
@@ -92,6 +92,7 @@ module.exports = {
 					loader: 'html-loader',
 					options: {
 						interpolate: true,
+						attrs: ['img:src', 'source:srcset'],
 					},
 				},
 			},

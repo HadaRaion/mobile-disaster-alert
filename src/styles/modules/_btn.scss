@@ -1,9 +1,67 @@
 .btn {
-	width: 20rem;
-	height: 4rem;
-	display: flex;
-	background-color: #fff;
-	color: $black;
-	justify-content: center;
-	font-weight: 700;
+	&--link {
+		width: 120px;
+		height: 34px;
+		background-color: #fff;
+		border: 1px solid $greyish;
+		border-radius: 17px;
+		box-shadow: $shadow;
+		overflow: hidden;
+		margin: 0 auto;
+
+		& > a {
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		&__icon {
+			width: 20px;
+			height: 20px;
+			background-image: url('../images/icons/icon-pin-sm.svg');
+			transform: translateY(-2px) translateX(-4px);
+		}
+
+		&__text {
+			font-size: 12px;
+			font-weight: bold;
+		}
+	}
+
+	&--guide {
+		width: 56px;
+		height: 56px;
+		border-radius: 10px;
+		background-color: #fff;
+		color: $tomato-red;
+		box-shadow: $shadow;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		&.active {
+			background-color: $tomato-red;
+			color: #fff;
+		}
+
+		&__icon {
+			display: block;
+			width: 24px;
+			height: 24px;
+			background-image: url('../images/icons/icon-alert.svg');
+			background-size: cover;
+
+			&.active {
+				background-image: url('../images/icons/icon-alert-white.svg');
+			}
+		}
+
+		&__text {
+			font-size: 10px;
+			font-weight: 500;
+			margin-top: 6px;
+		}
+	}
 }

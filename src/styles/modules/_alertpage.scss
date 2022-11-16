@@ -1,0 +1,61 @@
+.alert-page {
+	.alert-title {
+		width: 100%;
+		height: 36px;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		background-color: #000;
+
+		.blinkey {
+			width: 8px;
+			height: 8px;
+			background-color: $tomato-red;
+			border-radius: 4px;
+			margin-left: 1.4rem;
+			animation: blink 0.6s ease-in-out alternate infinite;
+		}
+
+		@keyframes blink {
+			100% {
+				opacity: 0.4;
+			}
+		}
+
+		.btn-open {
+			width: 1rem;
+			height: 1rem;
+			margin-right: 1rem;
+		}
+
+		.arrow {
+			border: solid #fff;
+			border-width: 0 2px 2px 0;
+			display: inline-block;
+			padding: 4px;
+			transform: rotate(45deg);
+			margin-bottom: 2px;
+
+			&.up {
+				transform: rotate(-135deg);
+				margin-bottom: -2px;
+			}
+		}
+	}
+
+	.alert-content {
+		opacity: 0.9;
+		background-color: $greyish-brown;
+		padding-bottom: 2.8rem;
+		display: none;
+
+		&.show {
+			display: block;
+		}
+
+		.t-lg {
+			padding: 2rem 0;
+			line-height: 1.5;
+		}
+	}
+}

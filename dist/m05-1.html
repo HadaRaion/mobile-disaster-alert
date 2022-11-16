@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>태풍경보</title>
     <script defer src="main.403d6d04572bcc4d29d9.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
-    <body class="alert-page">
+    <body class="alert-page2">
         <header>
     <div class="container">
         <div class="menu"></div>
@@ -22,32 +22,52 @@
 
         <main>
             <div class="map">
-                <picture>
-                    <source media="(max-width: 690px)" srcset="images/m05-1-map.646f0d59bf6377ea6772.webp" />
-                    <source media="(min-width: 690px)" srcset="images/m05-1-map-lg.2d76930b900c11999405.webp" />
-                    <img src="images/m05-1-map.646f0d59bf6377ea6772.webp" alt="지도" />
-                </picture>
+                <div class="map__bg">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m05-1-map.646f0d59bf6377ea6772.webp" />
+                        <source media="(min-width: 690px)" srcset="images/m05-1-map-lg.2d76930b900c11999405.webp" />
+                        <img src="images/m05-1-map.646f0d59bf6377ea6772.webp" alt="지도" />
+                    </picture>
+                </div>
+
+                <div class="map__distance">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m05-distance.1ed7f1f4589834a8b789.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m05-distance-lg.5be15c58ab027cd84cef.svg" />
+                        <img src="images/m05-distance.1ed7f1f4589834a8b789.svg" alt="지도" />
+                    </picture>
+                </div>
+
+                <div class="map__pin">
+                    <img src="images/pin-typhoon.9ae7c308b24b016c5f5f.svg" alt="" />
+                </div>
             </div>
 
             <section class="top">
                 <div class="container">
                     <div class="alert-title">
-                        <i class="blinkey"></i>
-                        <p class="t-white t-bold">오늘 16시 제주 태풍경보 발령</p>
-                        <button class="btn-open">
-                            <i class="arrow"></i>
+                        <p class="t-tomato t-bold">내 위치 긴급 대피요령</p>
+                        <button class="btn-close">
+                            <i class="close"></i>
                         </button>
                     </div>
+
+                    <button class="btn--guide">
+                        <i class="btn--guide__icon"></i>
+                        <span class="btn--guide__text">대피요령</span>
+                    </button>
+
                     <div class="alert-content">
-                        <p class="t-white t-lg">
-                            태풍 12호 OOO<br />
-                            제주 북동쪽에서 북상 중.<br /><br />
-                            많은 비와 강풍이 예상되니<br />
-                            하천, 해안가 등<br />
-                            위험지역 접근금지,<br />
-                            선박대피, 농수산물 보호행위<br />
-                            자제등 피해가 없도록<br />
-                            안전에 주의 바랍니다.
+                        <p class="t-lg">
+                            약 1시간 후 태풍의 영향권에<br />
+                            내에 진입할 예정이니,<br />
+                            외출을 자제하고<br />
+                            실내에 머뭅니다.<br />
+                            불가피하게 외출할 경우<br />
+                            바람에 날릴 수 있는<br />
+                            간판 등에 주의합니다.<br />
+                            해안가, 하천변, 침수 위험지역에<br />
+                            접근하지 않도록 합니다.<br />
                         </p>
 
                         <p class="t-white t-sm">[기상청] 11.4(금) 10시 기준</p>
@@ -57,9 +77,8 @@
 
             <section class="bottom">
                 <div class="btn--link">
-                    <a href="./m05-1.html">
-                        <span class="btn--link__icon"></span>
-                        <span class="btn--link__text t-point">내위치 보기</span>
+                    <a href="./m05.html">
+                        <span class="btn--link__text t-point">태풍경보 보기</span>
                     </a>
                 </div>
             </section>

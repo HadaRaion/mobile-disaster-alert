@@ -6,10 +6,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>태풍경보</title>
 	</head>
-	<body>
+	<body class="alert-page m05">
 		${require('./htmls/header-typhoon.html')}
 		<main>
-			<h1>태풍 알림</h1>
+			<div class="map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m05-1-map.webp" />
+					<source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.webp" />
+					<img src="./images/m05-1-map.webp" alt="지도" />
+				</picture>
+			</div>
+
+			<section class="top">
+				<div class="container">
+					<div class="alert-title">
+						<i class="blinkey"></i>
+						<p class="t-white t-bold">오늘 16시 제주 태풍경보 발령</p>
+						<button class="btn-open">
+							<i class="arrow"></i>
+						</button>
+					</div>
+					<div class="alert-content">
+						<p class="t-white t-lg t-center">
+							태풍 12호 OOO<br />
+							제주 북동쪽에서 북상 중.<br /><br />
+							많은 비와 강풍이 예상되니<br />
+							하천, 해안가 등<br />
+							위험지역 접근금지,<br />
+							선박대피, 농수산물 보호행위<br />
+							자제등 피해가 없도록<br />
+							안전에 주의 바랍니다.
+						</p>
+
+						<p class="t-white t-sm t-center">[기상청] 11.4(금) 10시 기준</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="btn--link">
+					<a href="./m05-1.html">
+						<span class="btn--link__icon"></span>
+						<span class="btn--link__text t-point">내위치 보기</span>
+					</a>
+				</div>
+			</section>
 		</main>
 		${require('./htmls/nav-typhoon.html')}
 	</body>

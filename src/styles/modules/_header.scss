@@ -5,6 +5,7 @@ header {
 	top: 0;
 	left: 0;
 	background-color: #fff;
+	border-bottom: 1px solid $warm-grey;
 
 	.container {
 		display: flex;
@@ -16,7 +17,8 @@ header {
 	.menu {
 		width: 24px;
 		height: 24px;
-		background-color: red;
+		background-image: url('../images/icons/icon-menu.svg');
+		background-size: cover;
 	}
 
 	.logo {
@@ -40,6 +42,7 @@ header {
 	.setting {
 		width: 24px;
 		height: 24px;
-		background-color: blue;
+		background-image: url('../images/icons/icon-setting.svg');
+		background-size: cover;
 	}
 }
