@@ -38,7 +38,7 @@ module.exports = {
 		main: path.resolve(__dirname, 'src/index.js'),
 	},
 	output: {
-		path: path.resolve(__dirname, 'dist'),
+		path: path.resolve(__dirname, 'docs'),
 		filename: '[name].[contenthash].bundle.js',
 		// assetModuleFilename: 'images/[name].[ext]',
 		assetModuleFilename: pathData => {
@@ -51,7 +51,7 @@ module.exports = {
 	target: target,
 	devtool: 'source-map',
 	devServer: {
-		static: path.resolve('./dist'),
+		static: path.resolve('./docs'),
 		port: 5001,
 		hot: true,
 	},
