@@ -19,22 +19,37 @@ header {
 		height: 24px;
 		background-image: url('../images/icons/icon-menu.svg');
 		background-size: cover;
+
+		@include atTablet {
+			width: 40px;
+			height: 40px;
+			transform: translateY(-1px);
+		}
 	}
 
 	.logo {
 		display: flex;
 		align-items: center;
 		color: $warm-grey;
-		font-weight: 700;
+		font-weight: 600;
 		font-size: 1rem;
+
+		@include atTablet {
+			font-size: 22px;
+		}
 
 		img {
 			width: 24px;
 			height: 24px;
 			margin-right: 6px;
+
+			@include atTablet {
+				width: 32px;
+				height: 32px;
+			}
 		}
 
-		p {
+		a {
 			transform: translateY(1px);
 		}
 	}
@@ -44,6 +59,11 @@ header {
 		height: 24px;
 		background-image: url('../images/icons/icon-setting.svg');
 		background-size: cover;
+
+		@include atTablet {
+			width: 40px;
+			height: 40px;
+		}
 
 		& > a {
 			display: block;

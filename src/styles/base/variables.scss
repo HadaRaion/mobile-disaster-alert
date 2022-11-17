@@ -23,3 +23,11 @@ $shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 		--layout-margin: 20px;
 	}
 }
+
+@include atTablet {
+	:root {
+		--header-height: 60px;
+		--nav-height: 72px;
+		--layout-margin: 24px;
+	}
+}

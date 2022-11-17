@@ -24,6 +24,10 @@ nav {
 		font-weight: 500;
 		color: $greyish;
 
+		@include atTablet {
+			font-size: 12px;
+		}
+
 		&.active {
 			color: $brownish-grey;
 
@@ -69,6 +73,11 @@ nav {
 		@include atFull {
 			width: 32px;
 			height: 32px;
+		}
+
+		@include atTablet {
+			width: 40px;
+			height: 40px;
 		}
 
 		&--info {
