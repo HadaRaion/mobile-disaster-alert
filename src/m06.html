@@ -8,8 +8,68 @@
 	</head>
 	<body>
 		${require('./htmls/header-typhoon.html')}
-		<main>
-			<h1>태풍 재난정보</h1>
+		<main class="info m06">
+			<section class="info__title">
+				<h1 class="t-brown t-center">태풍 12호 OOO 제주에서 북상 중</h1>
+				<p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+			</section>
+
+			<section class="info__map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m06-map.svg" />
+					<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+					<img src="./images/m06-map.svg" alt="지도" />
+				</picture>
+			</section>
+
+			<section class="info__detail">
+				<div class="container">
+					<ul class="bullet-list">
+						<li>
+							<p>태풍강도&nbsp;</p>
+							<p class="t-tomato t-bold">중</p>
+						</li>
+						<li>
+							<p>평균속도&nbsp;</p>
+							<p class="t-tomato t-bold">6.1m/s</p>
+						</li>
+
+						<li>
+							<p>풍속&nbsp;</p>
+							<p class="t-tomato t-bold">25m/s ~33m/s</p>
+						</li>
+
+						<li>
+							<p>강수량&nbsp;</p>
+							<p class="t-tomato t-bold">72.5mm</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="info__etc info__etc--route"">
+				<div class="container">
+					<h3>예상 경로</h3>
+					<ul class="gray-list">
+						<li>
+							<p><span class="right-space">09월 06일 00시</span>성산 동남쪽</p>
+							<p class="t-500">매우강</p>
+						</li>
+						<li>
+							<p><span class="right-space">09월 06일 06시</span>부산 서남서쪽</p>
+							<p class="t-500">강</p>
+						</li>
+						<li>
+							<p><span class="right-space">09월 06일 12시</span>울릉도 북북서쪽</p>
+							<p class="t-500">강</p>
+						</li>
+						<li>
+							<p><span class="right-space">09월 06일 18시</span>독도 북북동쪽</p>
+							<p class="t-500">강</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 		</main>
 		${require('./htmls/nav-typhoon.html')}
 	</body>

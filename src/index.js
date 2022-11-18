@@ -26,3 +26,9 @@ if (guidePage) {
 } else {
 	console.log('⛔️ body element does not have class');
 }
+
+const infoPages = ['/m06.html', '/m12.html', '/m18.html', '/m24.html', '/m30.html'];
+
+if (infoPages.includes(window.location.pathname)) {
+	document.querySelector('.nav__info').classList.add('active');
+}

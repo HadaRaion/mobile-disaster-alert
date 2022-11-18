@@ -29,6 +29,10 @@
 			padding-right: 0;
 		}
 	}
+
+	@include atTablet {
+		top: 2rem;
+	}
 }
 
 .bottom {
@@ -39,7 +43,7 @@
 	bottom: calc(24px + var(--nav-height));
 
 	@include atFull {
-		bottom: calc(34px + var(--nav-height));
+		bottom: calc(44px + var(--nav-height));
 	}
 }
 

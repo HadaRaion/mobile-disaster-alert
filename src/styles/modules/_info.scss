@@ -1,0 +1,51 @@
+.info {
+	&__title {
+		padding: 24px 0;
+
+		p {
+			margin-top: 2px;
+		}
+	}
+
+	&__map {
+		position: relative;
+		width: 100%;
+		aspect-ratio: 345 / 310;
+
+		&__bg,
+		&__illust {
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+	}
+
+	&__detail {
+		margin-top: 1rem;
+
+		.bullet-list {
+			display: flex;
+			flex-wrap: wrap;
+			width: 100%;
+
+			li:nth-child(odd) {
+				width: 55%;
+				// flex: 0 55%;
+			}
+		}
+	}
+
+	&__etc {
+		margin-top: 1.6rem;
+		padding-bottom: 1rem;
+
+		ul {
+			margin-top: 0.6rem;
+		}
+
+		&--degree h3 {
+			margin-top: 33px;
+			margin-bottom: 8px;
+		}
+	}
+}

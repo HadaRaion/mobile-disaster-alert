@@ -8,8 +8,47 @@
 	</head>
 	<body>
 		${require('./htmls/header-typhoon.html')}
-		<main>
-			<h1>태풍 재난정보</h1>
+		<main class="info m12">
+			<section class="info__title">
+				<h1 class="t-brown t-center">제주 서귀포시 홍수 주의보 발령</h1>
+				<p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+			</section>
+
+			<section class="info__map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m12-map.svg" />
+					<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+					<img src="./images/m12-map.svg" alt="지도" />
+				</picture>
+			</section>
+
+			<section class="info__detail">
+				<div class="container">
+					<ul class="bullet-list">
+						<li>
+							<p>현재 강수량&nbsp;</p>
+							<p class="t-tomato t-bold">180mm</p>
+						</li>
+					</ul>
+				</div>
+			</section>
+
+			<section class="info__etc">
+				<div class="container">
+					<h3>침수 통제 도로</h3>
+					<ul class="gray-list">
+						<li>
+							<p>국도 1132번 쇠소각~신홍천</p>
+						</li>
+						<li>
+							<p>국도 1132번 안덕계곡~중문고등학교</p>
+						</li>
+						<li>
+							<p>국도 1136 중문 리조트 인근</p>
+						</li>
+					</ul>
+				</div>
+			</section>
 		</main>
 		${require('./htmls/nav-flood.html')}
 	</body>

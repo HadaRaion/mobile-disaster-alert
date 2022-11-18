@@ -50,7 +50,7 @@
 	.alert-content {
 		opacity: 0.9;
 		background-color: $greyish-brown;
-		padding-bottom: 2.8rem;
+		padding-bottom: 52px;
 		display: none;
 
 		&.show {
@@ -60,6 +60,10 @@
 		.t-lg {
 			padding: 2rem 0;
 			line-height: 1.5;
+
+			@include atTablet {
+				padding: 42px 0;
+			}
 		}
 	}
 }

@@ -6,6 +6,7 @@ header {
 	left: 0;
 	background-color: #fff;
 	border-bottom: 1px solid $warm-grey;
+	z-index: 100;
 
 	.container {
 		display: flex;

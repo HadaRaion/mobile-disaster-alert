@@ -6,6 +6,10 @@
 		padding: 28px 20px 32px;
 		display: none;
 
+		@include atFull {
+			padding: 34px 20px 40px;
+		}
+
 		&.active {
 			display: block;
 		}
@@ -21,7 +25,7 @@
 		right: var(--layout-margin);
 
 		@include atFull {
-			bottom: calc(20px + var(--nav-height));
+			bottom: calc(2rem + var(--nav-height));
 		}
 	}
 }

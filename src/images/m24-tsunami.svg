@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="313.026" height="160" viewBox="0 0 313.026 160">
+    <defs>
+        <clipPath id="lyg404xkza">
+            <path data-name="패스 2619" d="M0 0h313v137H0z" style="fill:#cfe5f5"/>
+        </clipPath>
+        <clipPath id="iduey5ezob">
+            <path data-name="사각형 1947" style="fill:#fff" d="M0 0h88.929v138.413H0z"/>
+        </clipPath>
+        <clipPath id="k2tx3frlic">
+            <path data-name="사각형 1960" style="stroke-width:2px;stroke:#fff;fill:none" d="M0 0h313.026v8.483H0z"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 924">
+        <g data-name="그룹 923">
+            <g data-name="그룹 922">
+                <path data-name="패스 2774" d="M0 0h313v159H0z" transform="translate(.013)" style="fill:#ececec"/>
+                <g data-name="그룹 841">
+                    <g data-name="마스크 그룹 42" style="clip-path:url(#lyg404xkza)" transform="translate(.013 23)">
+                        <path data-name="패스 2616" d="M313 195V7.458a30.742 30.742 0 0 1-14.434-3.12 49.906 49.906 0 0 0-40.7 0 30.735 30.735 0 0 1-14.431 3.12A30.72 30.72 0 0 1 229 4.338a49.9 49.9 0 0 0-40.7 0 30.727 30.727 0 0 1-14.429 3.12 30.724 30.724 0 0 1-14.429-3.12A45.22 45.22 0 0 0 139.093 0a45.19 45.19 0 0 0-20.349 4.339 30.735 30.735 0 0 1-14.428 3.118 30.718 30.718 0 0 1-14.428-3.12A45.2 45.2 0 0 0 69.541 0 45.2 45.2 0 0 0 49.2 4.338a30.713 30.713 0 0 1-14.427 3.12 30.711 30.711 0 0 1-14.428-3.119A45.166 45.166 0 0 0 0 0v195z" style="fill:#cfe5f5"/>
+                    </g>
+                </g>
+                <g data-name="그룹 843">
+                    <g data-name="그룹 842" style="clip-path:url(#iduey5ezob)" transform="translate(30.013 14.333)">
+                        <path data-name="패스 2617" d="M47.082 25.106A12.553 12.553 0 1 0 47.086 0a12.553 12.553 0 0 0 0 25.106" transform="translate(1.307 2.449)" style="fill:#fff"/>
+                        <path data-name="패스 2618" d="M45.464 127.957a6.924 6.924 0 0 0 13.387 3.534l.061-.18 10.051-24.491a6.889 6.889 0 0 0-.744-6.247l-15.831-23.6 4.37-27.8 4.607 6.861a4.963 4.963 0 0 0 2.453 1.91l.284.134a4.927 4.927 0 0 0 1.272.538l15.592 3.932.191.109a5.166 5.166 0 0 0 2.537.684h.02a5.219 5.219 0 0 0 .573-10.406l.176-1.586-.394 1.551-15.2-3.832L57.61 32.292a5.006 5.006 0 0 0-3.2-2.14l-.223-.061a6.221 6.221 0 0 0-1.275-.306L37.4 27.758a6.151 6.151 0 0 0-3.63.627L12 39.139a4.968 4.968 0 0 0-2.382 2l-.188.245a4.993 4.993 0 0 0-.8 1.138L1.073 57.788a5.227 5.227 0 0 0 4.852 8.351 5.2 5.2 0 0 0 3.46-2.01 5.264 5.264 0 0 0 .957-2.083l.129-.374 6.7-13.584 12.38-7.75L24.817 71.6h.213l-.49 2.006-6.2 23.679-.171.239L2.658 119.31a6.925 6.925 0 0 0 10.849 8.609l16.056-22.492a6.964 6.964 0 0 0 1-1.789l.133-.272a7.18 7.18 0 0 0 .662-1.417l7.269-20.6L55 105.72z" transform="translate(0 1.851)" style="fill:#fff"/>
+                    </g>
+                </g>
+                <g data-name="그룹 912">
+                    <g data-name="그룹 911" style="clip-path:url(#k2tx3frlic)" transform="translate(0 29)">
+                        <path data-name="패스 2775" d="M313.011 7.969a30.748 30.748 0 0 1-14.434-3.12 49.909 49.909 0 0 0-40.7 0 30.736 30.736 0 0 1-14.431 3.12 30.725 30.725 0 0 1-14.435-3.12 49.9 49.9 0 0 0-40.7 0 30.728 30.728 0 0 1-14.429 3.12 30.728 30.728 0 0 1-14.429-3.12A45.226 45.226 0 0 0 139.1.511a45.2 45.2 0 0 0-20.345 4.339 30.737 30.737 0 0 1-14.428 3.118A30.724 30.724 0 0 1 89.9 4.848 45.2 45.2 0 0 0 69.552.511a45.192 45.192 0 0 0-20.341 4.338 30.72 30.72 0 0 1-14.427 3.12A30.711 30.711 0 0 1 20.356 4.85 45.167 45.167 0 0 0 .011.511" style="stroke-miterlimit:10;stroke-width:2px;stroke:#fff;fill:none"/>
+                    </g>
+                </g>
+            </g>
+            <path data-name="선 42" transform="translate(.513 135.5)" style="stroke-dasharray:4 2;stroke:#6d6d6d;fill:none" d="M0 0h312.5"/>
+            <path data-name="선 43" transform="translate(.513 108.5)" style="stroke-dasharray:4 2;stroke:#6d6d6d;fill:none" d="M0 0h312.5"/>
+            <path data-name="선 44" transform="translate(.513 82.5)" style="stroke:#ef760a;stroke-dasharray:4 2;stroke-width:2px;fill:none" d="M0 0h312.5"/>
+            <path data-name="선 45" transform="translate(.513 55.5)" style="stroke:#dd0021;stroke-dasharray:4 2;stroke-width:2px;fill:none" d="M0 0h312.5"/>
+        </g>
+        <g data-name="그룹 846">
+            <text data-name="30cm" transform="translate(225.013 152)" style="font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#6d6d6d;font-size:12px"><tspan x="-32.196" y="0">30cm</tspan></text>
+            <text data-name="50cm" transform="translate(225.013 125)" style="font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#6d6d6d;font-size:12px"><tspan x="-32.196" y="0">50cm</tspan></text>
+            <text data-name="70cm" transform="translate(225.013 98)" style="font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#6d6d6d;font-size:12px"><tspan x="-32.196" y="0">70cm</tspan></text>
+            <text data-name="100cm" transform="translate(225.013 71)" style="font-family:SpoqaHanSansNeo-Bold,Spoqa Han Sans Neo;font-weight:700;fill:#6d6d6d;font-size:12px"><tspan x="-39.348" y="0">100cm</tspan></text>
+            <text data-name="표류 물체 충돌" transform="translate(300.013 73)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#6d6d6d;font-size:12px"><tspan x="-71.616" y="0">표류 물체 충돌</tspan></text>
+            <g data-name="그룹 845">
+                <text data-name="성인 휩쓸림" transform="translate(300.013 99)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#6d6d6d;font-size:12px"><tspan x="-57.888" y="0">성인 휩쓸림</tspan></text>
+            </g>
+            <text data-name="자동차 표류" transform="translate(300.013 125)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#6d6d6d;font-size:12px"><tspan x="-60.576" y="0">자동차 표류 </tspan></text>
+            <text data-name="보행 불가능" transform="translate(300.013 151)" style="font-family:SpoqaHanSansNeo-Regular,Spoqa Han Sans Neo;fill:#6d6d6d;font-size:12px"><tspan x="-57.888" y="0">보행 불가능</tspan></text>
+        </g>
+    </g>
+</svg>

@@ -1,9 +1,23 @@
+h1 {
+	font-size: 24px;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: 500;
+	color: $brownish-grey;
+}
+
 .t-point {
 	font-family: 'S Core Dream', sans-serif;
 }
 
 .t-bold {
 	font-weight: bold;
+}
+
+.t-500 {
+	font-weight: 500;
 }
 
 .t-center {
@@ -44,4 +58,8 @@
 
 .t-tomato {
 	color: $tomato-red;
+}
+
+.t-brown {
+	color: $greyish-brown;
 }

@@ -8,8 +8,31 @@
 	</head>
 	<body>
 		${require('./htmls/header-typhoon.html')}
-		<main>
-			<h1>해일 재난정보</h1>
+		<main class="info m24">
+			<section class="info__title">
+				<h1 class="t-brown t-center">강릉, 속초 일대 해일 주의보 발령</h1>
+				<p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+			</section>
+
+			<section class="info__map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m24-map.svg" />
+					<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+					<img src="./images/m24-map.svg" alt="지도" />
+				</picture>
+			</section>
+
+			<section class="info__etc info__etc--degree">
+				<div class="container">
+					<h3>해일 높이와 피해</h3>
+
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m24-tsunami.svg" />
+						<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+						<img src="./images/m24-tsunami.svg" alt="지도" />
+					</picture>
+				</div>
+			</section>
 		</main>
 		${require('./htmls/nav-tsunami.html')}
 	</body>

@@ -5,57 +5,117 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>태풍경보</title>
-    <script defer src="main.eb2ff8dcaa59e28b5fb4.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
+    <script defer src="main.2c763deeea47457a25aa.bundle.js"></script><link href="main.css" rel="stylesheet"></head>
     <body>
         <header>
     <div class="container">
         <div class="menu"></div>
         <div class="logo">
             <img src="images/icons/logo-typhoon.09107afe9165a4113e1b.svg" alt="태풍로고" />
-            <a href="../m05.html" class="t-point">태풍경보</a>
+            <a href="./m05.html" class="t-point">태풍경보</a>
         </div>
         <div class="setting">
-            <a href="../index.html"></a>
+            <a href="./index.html"></a>
         </div>
     </div>
 </header>
 
-        <main>
-            <h1>태풍 재난정보</h1>
+        <main class="info m06">
+            <section class="info__title">
+                <h1 class="t-brown t-center">태풍 12호 OOO 제주에서 북상 중</h1>
+                <p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+            </section>
+
+            <section class="info__map">
+                <picture>
+                    <source media="(max-width: 690px)" srcset="images/m06-map.ac1bc282970c0e15e145.svg" />
+                    <!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+                    <img src="images/m06-map.ac1bc282970c0e15e145.svg" alt="지도" />
+                </picture>
+            </section>
+
+            <section class="info__detail">
+                <div class="container">
+                    <ul class="bullet-list">
+                        <li>
+                            <p>태풍강도&nbsp;</p>
+                            <p class="t-tomato t-bold">중</p>
+                        </li>
+                        <li>
+                            <p>평균속도&nbsp;</p>
+                            <p class="t-tomato t-bold">6.1m/s</p>
+                        </li>
+
+                        <li>
+                            <p>풍속&nbsp;</p>
+                            <p class="t-tomato t-bold">25m/s ~33m/s</p>
+                        </li>
+
+                        <li>
+                            <p>강수량&nbsp;</p>
+                            <p class="t-tomato t-bold">72.5mm</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="info__etc info__etc--route"">
+                <div class="container">
+                    <h3>예상 경로</h3>
+                    <ul class="gray-list">
+                        <li>
+                            <p><span class="right-space">09월 06일 00시</span>성산 동남쪽</p>
+                            <p class="t-500">매우강</p>
+                        </li>
+                        <li>
+                            <p><span class="right-space">09월 06일 06시</span>부산 서남서쪽</p>
+                            <p class="t-500">강</p>
+                        </li>
+                        <li>
+                            <p><span class="right-space">09월 06일 12시</span>울릉도 북북서쪽</p>
+                            <p class="t-500">강</p>
+                        </li>
+                        <li>
+                            <p><span class="right-space">09월 06일 18시</span>독도 북북동쪽</p>
+                            <p class="t-500">강</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
         </main>
         <nav>
     <div class="container">
         <ul class="nav">
             <li class="nav__info">
-                <a href="../m06.html">
+                <a href="./m06.html">
                     <div class="nav-icon nav-icon--info"></div>
                     <div class="nav-title nav-title-info">재난정보</div>
                 </a>
             </li>
 
             <li class="nav__news">
-                <a href="../m07.html">
+                <a href="./m07.html">
                     <div class="nav-icon nav-icon--news"></div>
                     <div class="nav-title nav-title-news">LIVE뉴스</div>
                 </a>
             </li>
 
             <li class="nav__guide">
-                <a href="../m08.html">
+                <a href="./m08.html">
                     <div class="nav-icon nav-icon--guide"></div>
                     <div class="nav-title nav-title-guide">행동요령</div>
                 </a>
             </li>
 
             <li class="nav__cctv">
-                <a href="../m09.html">
+                <a href="./m09.html">
                     <div class="nav-icon nav-icon--cctv"></div>
                     <div class="nav-title nav-title-cctv">CCTV</div>
                 </a>
             </li>
 
             <li class="nav__tipoff">
-                <a href="../m10.html">
+                <a href="./m10.html">
                     <div class="nav-icon nav-icon--tipoff"></div>
                     <div class="nav-title nav-title-tipoff">실시간제보</div>
                 </a>
