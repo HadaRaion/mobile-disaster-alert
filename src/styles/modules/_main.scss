@@ -8,4 +8,13 @@ main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+
+	min-height: 642px;
+	@include atFull {
+		min-height: 587px;
+	}
+
+	@include atTablet {
+		min-height: 1180px;
+	}
 }
