@@ -20,7 +20,7 @@ let multipleHtmlPlugins = htmlPageNames.map(name => {
 
 const plugins = [
 	// 최종본 때 활성화
-	new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
+	// new MiniCssExtractPlugin({ filename: '[name].[contenthash].css' }),
 	new MiniCssExtractPlugin(),
 ].concat(multipleHtmlPlugins);
 
