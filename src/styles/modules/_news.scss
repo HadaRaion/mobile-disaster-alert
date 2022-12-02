@@ -1,0 +1,149 @@
+.news {
+	.chat {
+		&__text {
+			font-size: 12px;
+
+			@include atTablet {
+				font-size: 20px;
+				line-height: 1.6;
+			}
+		}
+
+		&__top {
+			height: 32px;
+			background-color: $greyish-brown;
+
+			@include atTablet {
+				height: 52px;
+			}
+
+			svg {
+				width: 8px;
+				height: 8px;
+			}
+
+			& > .container {
+				display: flex;
+				position: relative;
+
+				.t-500 {
+					font-size: 12px;
+					margin-right: 12px;
+
+					@include atTablet {
+						font-size: 20px;
+						margin-right: 24px;
+					}
+				}
+
+				.t-xs {
+					margin-right: 0px;
+					font-weight: 300;
+					display: flex;
+					align-items: center;
+
+					svg {
+						margin-right: 4px;
+
+						@include atTablet {
+							width: 16px;
+							height: 16px;
+							margin-right: 6px;
+						}
+					}
+				}
+			}
+
+			&__btn {
+				margin-left: auto;
+
+				button,
+				svg {
+					width: 12px;
+					height: 12px;
+
+					@include atTablet {
+						width: 16px;
+						height: 16px;
+					}
+				}
+			}
+		}
+
+		&__bottom {
+			li {
+				margin-bottom: 24px;
+				color: $greyish-brown;
+				display: flex;
+			}
+		}
+
+		.from-me {
+			max-width: 219px;
+			margin-left: auto;
+
+			@include atTablet {
+				max-width: 600px;
+			}
+
+			.chat__avatar {
+				background-color: #439486;
+			}
+		}
+
+		&__avatar {
+			width: 16px;
+			height: 16px;
+			border-radius: 50%;
+			background-color: #435094;
+			color: #fff;
+			font-size: 8px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 8px;
+			flex-shrink: 0;
+
+			@include atTablet {
+				width: 20px;
+				height: 20px;
+				margin-right: 12px;
+			}
+		}
+
+		&__name {
+			margin-top: 2px;
+			margin-bottom: 4px;
+		}
+
+		&__text {
+		}
+
+		&__input {
+			box-shadow: $shadow;
+
+			input {
+				padding-right: 44px;
+
+				@include atTablet {
+					padding-right: 72px;
+				}
+			}
+
+			button {
+				width: 16px;
+				height: 16px;
+				position: absolute;
+				top: 8px;
+				right: 16px;
+
+				@include atTablet {
+					width: 30px;
+					height: 30px;
+					top: 15px;
+					right: 30px;
+				}
+			}
+		}
+	}
+}

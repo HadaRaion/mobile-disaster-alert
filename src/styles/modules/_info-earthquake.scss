@@ -1,0 +1,247 @@
+.m18 {
+	.info {
+		&__maps {
+			position: relative;
+			width: 100%;
+			aspect-ratio: 345 / 240;
+
+			@include atFull {
+				aspect-ratio: 924 / 488;
+			}
+
+			& > div {
+				position: absolute;
+			}
+		}
+
+		&__map1,
+		&__map2 {
+			display: none;
+			width: 100%;
+			height: 100%;
+
+			&.active {
+				display: block;
+			}
+		}
+
+		&__map-btn {
+			display: flex;
+			flex-direction: column;
+			top: 1rem;
+			right: 1rem;
+
+			button {
+				margin-bottom: 8px;
+
+				@include atTablet {
+					margin-bottom: 12px;
+				}
+			}
+		}
+
+		&__detail {
+			background-color: #fff;
+			width: 100%;
+			flex: 0;
+
+			.bullet-list li:nth-child(odd) {
+				width: 100%;
+			}
+		}
+
+		&__etc {
+			@include atFull {
+				margin-top: 30px;
+
+				&__title {
+					@include atTablet {
+						height: 280px;
+						flex: 1 0 215px;
+						margin-right: 8px;
+
+						i {
+							width: 62px;
+							height: 62px;
+							background-image: url('../images/m18-icon.svg');
+							background-size: cover;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.magnitude {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		margin-top: 7px;
+
+		@include atTablet {
+			margin-top: 0px;
+		}
+
+		&__table {
+			display: flex;
+			width: 100%;
+			position: relative;
+
+			& > div {
+				flex: 1 1 0;
+				position: relative;
+
+				&:first-child {
+					flex: 0 0 24px;
+				}
+
+				&.active .bar {
+					display: block;
+				}
+			}
+
+			.magnitude-3 {
+				display: flex;
+				flex: 4 1 0;
+
+				& > div {
+					flex: 1 1 0;
+				}
+
+				.bar {
+					width: 90%;
+				}
+			}
+
+			.th,
+			.td {
+				height: 36px;
+
+				&:first-child {
+					margin-bottom: 2px;
+				}
+
+				@include atTablet {
+					height: 60px;
+				}
+			}
+
+			.th {
+				padding: 6px 6px 5px;
+				background-color: $pinkish-grey;
+				font-size: 12px;
+				font-weight: 500;
+				color: $brownish-grey;
+				line-height: 1.08;
+
+				@include atTablet {
+					padding: 10px 10px 9px;
+					font-size: 18px;
+					line-height: 1.11;
+				}
+			}
+
+			.td {
+				background-color: #ececec;
+				color: $warm-grey;
+				font-size: 15px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				flex: 1;
+
+				@include atTablet {
+					font-size: 24px;
+				}
+			}
+
+			.bar {
+				position: absolute;
+				width: 60%;
+				height: 4px;
+				top: 50%;
+				left: 50%;
+				transform: translateX(-50%) translateY(-50%);
+				background-color: $tomato-red;
+				display: none;
+
+				@include atTablet {
+					height: 6px;
+				}
+			}
+		}
+
+		&__info {
+			position: relative;
+			width: 100%;
+			margin-top: 16px;
+
+			@include atFull {
+				padding-bottom: 44px;
+			}
+
+			@include atTablet {
+				margin-top: 28px;
+				padding-bottom: 0;
+			}
+
+			.tooltip {
+				position: absolute;
+				width: 100%;
+				padding: 12px 14px 11px;
+				background: $warm-grey;
+				color: white;
+				font-size: 14px;
+				line-height: 1.43;
+				display: none;
+
+				@include atTablet {
+					padding: 26px 14px 24px;
+					font-size: 26px;
+					line-height: 1.54;
+				}
+
+				&.active {
+					display: block;
+				}
+			}
+
+			.tooltip:before {
+				border-top: 0px solid transparent;
+				border-left: 8px solid transparent;
+				border-right: 8px solid transparent;
+				border-bottom: 12px solid $warm-grey;
+				content: '';
+				position: absolute;
+				top: -11px;
+
+				@include atTablet {
+					border-left: 13px solid transparent;
+					border-right: 13px solid transparent;
+					border-bottom: 20px solid $warm-grey;
+					top: -19px;
+				}
+			}
+
+			.tooltip-magnitude-5:before {
+				left: 13%;
+
+				@include atTablet {
+					left: 11.5%;
+				}
+			}
+
+			.tooltip-magnitude-4:before {
+				left: 28.5%;
+
+				@include atTablet {
+					left: 27%;
+				}
+			}
+
+			.tooltip-magnitude-3:before {
+				left: 67%;
+			}
+		}
+	}
+}

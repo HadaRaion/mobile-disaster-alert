@@ -1,57 +1,81 @@
 .map {
 	position: relative;
 	width: 100%;
-	height: calc(100vh - var(--header-height) - var(--nav-height));
+	aspect-ratio: 345 / 642;
 
-	&__bg,
-	&__distance {
+	@include atFull {
+		aspect-ratio: 924 / 1180;
+	}
+
+	& > div {
+		width: 100%;
+		height: 100%;
 		position: absolute;
 		top: 0;
 		left: 0;
 	}
 
-	&__pin {
-		position: absolute;
-	}
-}
+	&__animation {
+		opacity: 1;
+		animation: alert 0.6s linear alternate infinite;
 
-.top {
-	width: 100%;
-	position: absolute;
-	top: 1rem;
+		@keyframes alert {
+			0% {
+				opacity: 1;
+			}
 
-	@include atFull {
-		width: 388px;
-		right: var(--layout-margin);
+			49% {
+				opacity: 1;
+			}
 
-		.container {
-			padding-left: 0;
-			padding-right: 0;
+			50% {
+				opacity: 0.5;
+			}
+
+			100% {
+				opacity: 0.5;
+			}
 		}
 	}
 
-	@include atTablet {
-		top: 2rem;
-	}
-}
+	&__pins {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
 
-.bottom {
-	display: flex;
-	width: 100%;
-	justify-content: center;
-	position: fixed;
-	bottom: calc(24px + var(--nav-height));
+		> div {
+			position: absolute;
+			background-size: cover;
+			transform: translate(-50%, -100%);
+		}
 
-	@include atFull {
-		bottom: calc(44px + var(--nav-height));
-	}
-}
+		&__pin {
+			width: 20px;
+			height: 20px;
+			background-image: url('../images//icons/icon-pin-sm.svg');
 
-.m05 {
-	.map__pin {
-		width: 40px;
-		height: 40px;
-		top: 45%;
-		left: 10%;
+			@include atTablet {
+				width: 28px;
+				height: 28px;
+
+				&.active {
+					width: 44px;
+					height: 44px;
+				}
+			}
+		}
+
+		.mylocation {
+			width: 44px;
+			height: 44px;
+			background-image: url('../images//icons/icon-location.svg');
+
+			@include atTablet {
+				width: 72px;
+				height: 72px;
+			}
+		}
 	}
 }

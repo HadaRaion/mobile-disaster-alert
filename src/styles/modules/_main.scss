@@ -5,11 +5,14 @@ main {
 	width: 100%;
 	min-height: calc(100vh - var(--header-height) - var(--nav-height));
 
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// justify-content: space-between;
+
 	@include atFull {
-		background-color: red;
 	}
 
 	@include atTablet {
-		background-color: #000;
 	}
 }

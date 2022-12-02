@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<title>태풍경보</title>
+	</head>
+	<body class="detour m33">
+		${require('./htmls/header-forest-fires.html')}
+		<main>
+			<section class="map">
+				<div class="map__bg">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m33-map.webp" />
+						<source media="(min-width: 690px)" srcset="./images/m33-map-lg.webp" />
+						<img src="./images/m33-map.webp" alt="지도" />
+					</picture>
+				</div>
+
+				<div class="map__animation">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m33-animation.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m33-animation-lg.svg" />
+						<img src="./images/m33-animation.svg" alt="지도" />
+					</picture>
+				</div>
+
+				<div class="map__direction">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m33-direction.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m33-direction-lg.svg" />
+						<img src="./images/m33-direction.svg" alt="지도" />
+					</picture>
+				</div>
+			</section>
+		</main>
+		${require('./htmls/nav-forest-fires.html')}
+	</body>
+</html>

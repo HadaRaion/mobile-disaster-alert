@@ -4,9 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
         <title>태풍경보</title>
-    <script defer src="main.2c763deeea47457a25aa.bundle.js"></script><link href="main.2eaeb1da3fe95ace3058.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
-    <body>
+    <script defer src="main.6ef73b20725352d0d5de.bundle.js"></script><link href="main.3a563b50c63856c7ea3d.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
+    <body class="info m24">
         <header>
     <div class="container">
         <div class="menu"></div>
@@ -20,19 +21,46 @@
     </div>
 </header>
 
-        <main class="info m24">
+        <main>
             <section class="info__title">
                 <h1 class="t-brown t-center">강릉, 속초 일대 해일 주의보 발령</h1>
-                <p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+                <p class="t-date t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
             </section>
 
-            <section class="info__map">
-                <picture>
-                    <source media="(max-width: 690px)" srcset="images/m24-map.8f50b5664184eabb9be4.svg" />
-                    <!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
-                    <img src="images/m24-map.8f50b5664184eabb9be4.svg" alt="지도" />
-                </picture>
-            </section>
+            <div class="info__wrapper">
+                <section class="info__map">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m24-map.8f50b5664184eabb9be4.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m24-map-lg.35a8ff75b8b02ca3e9bb.svg" />
+                        <img src="images/m24-map.8f50b5664184eabb9be4.svg" alt="지도" />
+                    </picture>
+                </section>
+
+                <section class="info__detail">
+                    <div class="container">
+                        <ul class="bullet-list">
+                            <li>
+                                <p>강릉&nbsp;</p>
+                                <p class="t-tomato t-bold">120mm</p>
+                            </li>
+                            <li>
+                                <p>속초&nbsp;</p>
+                                <p class="t-tomato t-bold">115mm</p>
+                            </li>
+
+                            <li>
+                                <p>삼척&nbsp;</p>
+                                <p class="t-tomato t-bold">110mm</p>
+                            </li>
+
+                            <li>
+                                <p>울진&nbsp;</p>
+                                <p class="t-tomato t-bold">105mm</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
 
             <section class="info__etc info__etc--degree">
                 <div class="container">
@@ -40,7 +68,7 @@
 
                     <picture>
                         <source media="(max-width: 690px)" srcset="images/m24-tsunami.146a0d580fbe3e8cc12c.svg" />
-                        <!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+                        <source media="(min-width: 690px)" srcset="images/m24-tsunami-lg.327f9cbe3452dbc9f7b4.svg" />
                         <img src="images/m24-tsunami.146a0d580fbe3e8cc12c.svg" alt="지도" />
                     </picture>
                 </div>
@@ -57,28 +85,28 @@
             </li>
 
             <li class="nav__news">
-                <a href="./m07.html">
+                <a href="./m25.html">
                     <div class="nav-icon nav-icon--news"></div>
                     <div class="nav-title nav-title-news">LIVE뉴스</div>
                 </a>
             </li>
 
             <li class="nav__guide">
-                <a href="./m08.html">
+                <a href="./m26.html">
                     <div class="nav-icon nav-icon--guide"></div>
                     <div class="nav-title nav-title-guide">행동요령</div>
                 </a>
             </li>
 
             <li class="nav__cctv">
-                <a href="./m09.html">
+                <a href="./m27.html">
                     <div class="nav-icon nav-icon--cctv"></div>
                     <div class="nav-title nav-title-cctv">CCTV</div>
                 </a>
             </li>
 
-            <li class="nav__tipoff">
-                <a href="./m10.html">
+            <li class="nav__report">
+                <a href="./m28.html">
                     <div class="nav-icon nav-icon--tipoff"></div>
                     <div class="nav-title nav-title-tipoff">실시간제보</div>
                 </a>

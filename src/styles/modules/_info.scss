@@ -2,8 +2,23 @@
 	&__title {
 		padding: 24px 0;
 
+		@include atTablet {
+			padding: 56px 0;
+		}
+
 		p {
 			margin-top: 2px;
+
+			@include atTablet {
+				margin-top: 6px;
+			}
+		}
+	}
+
+	@include atFull {
+		&__wrapper {
+			width: 100%;
+			display: flex;
 		}
 	}
 
@@ -11,6 +26,11 @@
 		position: relative;
 		width: 100%;
 		aspect-ratio: 345 / 310;
+
+		@include atFull {
+			aspect-ratio: 584 / 640;
+			flex: 0 63.2%;
+		}
 
 		&__bg,
 		&__illust {
@@ -30,22 +50,77 @@
 
 			li:nth-child(odd) {
 				width: 55%;
-				// flex: 0 55%;
+			}
+		}
+
+		@include atFull {
+			margin-top: 0;
+			background-color: #f8f8f8;
+			padding-top: 34px;
+			flex: 1;
+
+			.bullet-list {
+				display: block;
+
+				li:nth-child(odd) {
+					width: 100%;
+				}
 			}
 		}
 	}
 
 	&__etc {
+		width: 100%;
 		margin-top: 1.6rem;
 		padding-bottom: 1rem;
 
-		ul {
-			margin-top: 0.6rem;
+		@include atTablet {
+			margin-top: 64px;
+			padding-bottom: 2rem;
+
+			& > .container {
+				display: flex;
+			}
 		}
 
-		&--degree h3 {
-			margin-top: 33px;
-			margin-bottom: 8px;
+		&__title {
+			@include atTablet {
+				width: 215px;
+				background-color: $greyish;
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: center;
+			}
+
+			i {
+				display: none;
+
+				@include atTablet {
+					display: block;
+				}
+			}
+
+			h3 {
+				font-size: 1rem;
+				color: $brownish-grey;
+				font-weight: 500;
+
+				@include atTablet {
+					font-size: 20px;
+					color: #fff;
+					margin-top: 1rem;
+				}
+			}
+		}
+
+		ul {
+			margin-top: 0.6rem;
+			flex: 1;
+
+			@include atTablet {
+				margin-top: 0;
+			}
 		}
 	}
 }

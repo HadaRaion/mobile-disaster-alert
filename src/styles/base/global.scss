@@ -21,7 +21,12 @@ body {
 img {
 	height: auto;
 	max-width: 100%;
+	width: 100%;
 	vertical-align: bottom;
+}
+
+section {
+	width: 100%;
 }
 
 ul {
@@ -61,13 +66,14 @@ input[type='submit'],
 input[type='tel'],
 input[type='url'],
 [type='textarea'],
-textarea {
+textarea,
+select {
 	border-radius: 0;
-	-webkit-appearance: none;
+	appearance: none;
 	outline: none;
-}
+	font-family: inherit;
 
-input[type='text'],
-input[type='password'] {
-	padding-left: 10px;
+	&:focus {
+		outline: none;
+	}
 }

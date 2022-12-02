@@ -13,9 +13,41 @@
 @import './modules/nav';
 @import './modules/list';
 
+// Required Core Stylesheet
+@import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
+
+// Optional Theme Stylesheet
+// @import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+
 /* Main page */
 @import './modules/map';
 @import './modules/alertpage';
-@import './modules/guidepage';
+@import './modules/my-location';
 
+/* Info page */
 @import './modules/info';
+@import './modules/info-earthquake';
+@import './modules/info-tsunami';
+@import './modules/info-forest-fires';
+
+/* News page */
+@import './modules/news';
+@import './modules/news-layout';
+
+/* Guide page */
+@import './modules/guide';
+@import './modules/guide-typhoon';
+@import './modules/guide-flood';
+@import './modules/guide-earthquake';
+@import './modules/guide-tsunami';
+@import './modules/guide-forest-fire';
+
+/* CCTV page */
+@import './modules/cctv';
+
+/* Detour page */
+
+/* Report page */
+@import './modules/report-list';
+@import './modules/report-form';
+@import './modules/report-complete';

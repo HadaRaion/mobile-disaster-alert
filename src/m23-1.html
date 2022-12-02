@@ -4,30 +4,35 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<title>태풍경보</title>
 	</head>
-	<body class="guide-page m23">
+	<body class="my-location m23">
 		${require('./htmls/header-typhoon.html')}
 		<main>
 			<div class="map">
 				<div class="map__bg">
 					<picture>
 						<source media="(max-width: 690px)" srcset="./images/m23-1-map.webp" />
-						<source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.webp" />
+						<source media="(min-width: 690px)" srcset="./images/m23-1-map-lg.webp" />
 						<img src="./images/m23-1-map.webp" alt="지도" />
+					</picture>
+				</div>
+
+				<div class="map__animation">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m23-animation.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m23-animation-lg.svg" />
+						<img src="./images/m23-animation.svg" alt="지도" />
 					</picture>
 				</div>
 
 				<div class="map__distance">
 					<picture>
 						<source media="(max-width: 690px)" srcset="./images/m23-distance.svg" />
-						<source media="(min-width: 690px)" srcset="./images/m05-distance-lg.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m23-distance-lg.svg" />
 						<img src="./images/m23-distance.svg" alt="지도" />
 					</picture>
-				</div>
-
-				<div class="map__pin">
-					<img src="./images/pin-tsunami.svg" alt="해일 아이콘" />
 				</div>
 			</div>
 
@@ -36,9 +41,6 @@
 					<div class="guide">
 						<div class="guide__title">
 							<p class="t-tomato t-bold t-center t-md">내 위치 긴급 대피요령</p>
-							<button class="btn-close">
-								<i class="close"></i>
-							</button>
 						</div>
 
 						<div class="guide__content">
@@ -52,6 +54,8 @@
 								지정 대피소로 대피하십시오.<br />
 							</p>
 						</div>
+
+						<button class="btn--close"></button>
 					</div>
 				</div>
 			</section>

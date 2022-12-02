@@ -1,0 +1,236 @@
+.guide {
+	main > div {
+		width: 100%;
+	}
+
+	// ------------- Mobile --------------
+	.mobile {
+		@include atTablet {
+			display: none;
+		}
+
+		&__tips {
+			.tab-menu {
+				display: flex;
+
+				button {
+					flex: 1;
+					font-size: 12px;
+					color: $greyish;
+					padding: 20px 0 5px;
+					transition: 0.5s;
+					border-bottom: 4px solid #fff;
+
+					&.active {
+						color: $greyish-brown;
+						border-bottom: 4px solid $tomato-red;
+					}
+				}
+			}
+
+			.tab-content {
+				height: 212px;
+				padding-top: 36px;
+				padding-bottom: 20px;
+				background-color: #ececec;
+				display: none;
+
+				&.active {
+					display: flex;
+					flex-direction: column;
+					justify-content: space-between;
+					align-items: center;
+				}
+
+				.tab-content__img {
+					width: 88px;
+					height: 88px;
+
+					overflow: hidden;
+
+					> img {
+						width: 100%;
+					}
+				}
+
+				p {
+					color: $warm-grey;
+					line-height: 1.5;
+					font-size: 16px;
+				}
+			}
+		}
+
+		&__title {
+			margin-top: 30px;
+
+			p {
+				font-size: 16px;
+			}
+		}
+
+		&__shelter {
+			margin-top: 9px;
+
+			.map {
+				aspect-ratio: 345 / 328;
+
+				&__pins__pin {
+					width: 28px;
+					height: 28px;
+					z-index: 10;
+				}
+
+				&__modal {
+					width: 100%;
+					height: 100%;
+					position: absolute;
+					top: 0;
+					left: 0;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					& > div {
+						width: 260px;
+						height: 224px;
+						padding: 26px;
+						border-radius: 24px;
+						background-color: #fff;
+						box-shadow: $shadow;
+						display: none;
+						flex-direction: column;
+						justify-content: space-between;
+						position: relative;
+						z-index: 20;
+
+						&.active {
+							display: flex;
+						}
+
+						p {
+							font-size: 1rem;
+						}
+
+						li {
+							display: flex;
+							align-items: center;
+
+							&::before {
+								content: '';
+								display: block;
+								width: 4px;
+								height: 12px;
+								background-color: $warm-grey;
+								margin-right: 8px;
+							}
+							p {
+								color: $warm-grey;
+								line-height: 2;
+							}
+						}
+					}
+
+					button {
+						position: absolute;
+						right: 18px;
+						top: 24px;
+					}
+				}
+			}
+		}
+	}
+
+	// ------------- Tablet --------------
+	.tablet {
+		display: none;
+
+		@include atTablet {
+			display: block;
+		}
+
+		&__tips {
+			ul {
+				display: flex;
+				padding: 64px 0 49px;
+				background-color: #ececec;
+				height: 384px;
+			}
+
+			li {
+				flex: 1;
+				border-right: 1px solid $greyish;
+
+				&:last-child {
+					border-right: none;
+				}
+
+				.t-md {
+					color: $warm-grey;
+					line-height: 1.6;
+				}
+			}
+
+			&__img {
+				width: 88px;
+				height: 88px;
+				margin: 32px auto 22px;
+				overflow: hidden;
+
+				> img {
+					width: 100%;
+				}
+			}
+		}
+
+		&__title {
+			padding: 32px 0 24px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			p {
+				margin-top: 16px;
+			}
+		}
+
+		&__shelter {
+			display: flex;
+
+			.map {
+				width: 585px;
+				aspect-ratio: 585 / 636;
+			}
+
+			&__list {
+				flex: 1;
+				background-color: #f8f8f8;
+				padding: 40px 0 0 32px;
+
+				li {
+					margin-bottom: 36px;
+
+					&:last-child {
+						margin-bottom: 0;
+					}
+
+					&.active h3 {
+						border-bottom: 2px solid $tomato-red;
+					}
+				}
+
+				h3 {
+					width: 100%;
+					padding-bottom: 5px;
+					border-bottom: 2px solid transparent;
+					margin-bottom: 8px;
+				}
+
+				p {
+					color: $warm-grey;
+					line-height: 1.55;
+				}
+			}
+		}
+	}
+}

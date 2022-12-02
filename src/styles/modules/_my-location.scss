@@ -1,0 +1,75 @@
+.my-location {
+	.guide {
+		position: relative;
+		border-radius: 24px;
+		padding: 28px 20px 32px;
+		background-color: #fff;
+		box-shadow: $shadow;
+		display: none;
+
+		@include atTablet {
+			padding: 34px 20px 40px;
+		}
+
+		&.active {
+			display: block;
+		}
+
+		&__title {
+		}
+		&__content {
+			margin-top: 20px;
+			line-height: 1.5;
+		}
+
+		.btn--close {
+			position: absolute;
+			width: 24px;
+			height: 24px;
+			top: 24px;
+			right: 24px;
+		}
+	}
+
+	.btn--guide {
+		position: fixed;
+		bottom: calc(13px + var(--nav-height));
+		right: var(--layout-margin);
+
+		@include atTablet {
+			bottom: calc(2rem + var(--nav-height));
+		}
+	}
+}
+
+.top {
+	width: 100%;
+	position: fixed;
+	top: calc(1rem + var(--header-height));
+
+	@include atFull {
+		width: 388px;
+		right: var(--layout-margin);
+
+		.container {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+
+	@include atTablet {
+		top: calc(2rem + var(--header-height));
+	}
+}
+
+.bottom {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	position: fixed;
+	bottom: calc(24px + var(--nav-height));
+
+	@include atTablet {
+		bottom: calc(44px + var(--nav-height));
+	}
+}

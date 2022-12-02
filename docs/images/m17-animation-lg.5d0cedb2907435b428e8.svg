@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="924" height="1180" viewBox="0 0 924 1180">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="squre" width="924" height="1180" transform="translate(0 60)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="마스크_그룹_58" data-name="마스크 그룹 58" transform="translate(0 -60)" clip-path="url(#clip-path)">
+    <circle id="circle" cx="482" cy="482" r="482" transform="translate(-342 355)" fill="rgba(255,86,86,0.29)"/>
+  </g>
+</svg>

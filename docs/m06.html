@@ -4,9 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
         <title>태풍경보</title>
-    <script defer src="main.2c763deeea47457a25aa.bundle.js"></script><link href="main.2eaeb1da3fe95ace3058.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
-    <body>
+    <script defer src="main.6ef73b20725352d0d5de.bundle.js"></script><link href="main.3a563b50c63856c7ea3d.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
+    <body class="info m06">
         <header>
     <div class="container">
         <div class="menu"></div>
@@ -20,48 +21,92 @@
     </div>
 </header>
 
-        <main class="info m06">
+        <main>
             <section class="info__title">
                 <h1 class="t-brown t-center">태풍 12호 OOO 제주에서 북상 중</h1>
-                <p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+                <p class="t-date t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
             </section>
 
-            <section class="info__map">
-                <picture>
-                    <source media="(max-width: 690px)" srcset="images/m06-map.ac1bc282970c0e15e145.svg" />
-                    <!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
-                    <img src="images/m06-map.ac1bc282970c0e15e145.svg" alt="지도" />
-                </picture>
-            </section>
+            <div class="info__wrapper">
+                <section class="info__map">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m06-map.ac1bc282970c0e15e145.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m06-map-lg.9b4a8ffdad2b3240124f.svg" />
+                        <img src="images/m06-map.ac1bc282970c0e15e145.svg" alt="지도" />
+                    </picture>
+                </section>
 
-            <section class="info__detail">
+                <section class="info__detail">
+                    <div class="container">
+                        <ul class="bullet-list">
+                            <li>
+                                <p>태풍강도&nbsp;</p>
+                                <p class="t-tomato t-bold">중</p>
+                            </li>
+                            <li>
+                                <p>평균속도&nbsp;</p>
+                                <p class="t-tomato t-bold">6.1m/s</p>
+                            </li>
+
+                            <li>
+                                <p>풍속&nbsp;</p>
+                                <p class="t-tomato t-bold">25m/s ~33m/s</p>
+                            </li>
+
+                            <li>
+                                <p>강수량&nbsp;</p>
+                                <p class="t-tomato t-bold">72.5mm</p>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </div>
+
+            <section class="info__etc info__etc--route">
                 <div class="container">
-                    <ul class="bullet-list">
-                        <li>
-                            <p>태풍강도&nbsp;</p>
-                            <p class="t-tomato t-bold">중</p>
-                        </li>
-                        <li>
-                            <p>평균속도&nbsp;</p>
-                            <p class="t-tomato t-bold">6.1m/s</p>
-                        </li>
+                    <div class="info__etc__title">
+                        <i>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+                                <g transform="translate(-96 -957)">
+                                    <g
+                                        transform="translate(96 957)"
+                                        style="stroke-width: 4px; stroke: #fff; fill: none"
+                                    >
+                                        <circle cx="32" cy="32" r="32" style="stroke: none" />
+                                        <circle cx="32" cy="32" r="30" style="fill: none" />
+                                    </g>
+                                    <circle
+                                        cx="5"
+                                        cy="5"
+                                        r="5"
+                                        transform="translate(132.667 972.8)"
+                                        style="fill: #fff"
+                                    />
+                                    <circle
+                                        cx="5"
+                                        cy="5"
+                                        r="5"
+                                        transform="translate(115.259 980.111)"
+                                        style="fill: #fff"
+                                    />
+                                    <circle
+                                        cx="5"
+                                        cy="5"
+                                        r="5"
+                                        transform="translate(108.519 997.444)"
+                                        style="fill: #fff"
+                                    />
+                                    <path
+                                        d="m4794.961 989.917-17.75 6.5-6.4 17.4 3 15"
+                                        transform="translate(-4657.211 -11.417)"
+                                        style="stroke-width: 2px; stroke: #fff; fill: none"
+                                    />
+                                </g>
+                            </svg>
+                        </i>
+                        <h3>예상 경로</h3>
+                    </div>
 
-                        <li>
-                            <p>풍속&nbsp;</p>
-                            <p class="t-tomato t-bold">25m/s ~33m/s</p>
-                        </li>
-
-                        <li>
-                            <p>강수량&nbsp;</p>
-                            <p class="t-tomato t-bold">72.5mm</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
-
-            <section class="info__etc info__etc--route"">
-                <div class="container">
-                    <h3>예상 경로</h3>
                     <ul class="gray-list">
                         <li>
                             <p><span class="right-space">09월 06일 00시</span>성산 동남쪽</p>
@@ -114,7 +159,7 @@
                 </a>
             </li>
 
-            <li class="nav__tipoff">
+            <li class="nav__report">
                 <a href="./m10.html">
                     <div class="nav-icon nav-icon--tipoff"></div>
                     <div class="nav-title nav-title-tipoff">실시간제보</div>

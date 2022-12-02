@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<title>태풍경보</title>
+	</head>
+	<body class="alert-page m29">
+		${require('./htmls/header-forest-fires.html')}
+		<main>
+			<div class="map">
+				<picture>
+					<source media="(max-width: 690px)" srcset="./images/m29-map.svg" />
+					<source media="(min-width: 690px)" srcset="./images/m29-map-lg.svg" />
+					<img src="./images/m29-map.svg" alt="지도" />
+				</picture>
+			</div>
+
+			<section class="top">
+				<div class="container">
+					<div class="alert-title">
+						<i class="blinkey"></i>
+						<p class="t-white t-bold t-md">오늘 21시 충북 청주 산불경보 발령</p>
+						<button class="btn-open">
+							<i class="arrow"></i>
+						</button>
+					</div>
+					<div class="alert-content">
+						<p class="t-white t-lg t-center">
+							전국에 건조특보가 발효 중에<br />
+							오늘 21시 충북 청주시 <br />
+							흥덕구 부모산에서<br />
+							산불 발생하여 2단계 경보 발령.<br /><br />
+							예상피해 면적 30~100ha.<br />
+							등산객 및 인근 주민들은<br />
+							안전에 유의하시고<br />
+							산불 발견 시 즉시 신고 바랍니다.<br />
+						</p>
+
+						<p class="t-white t-sm t-center">[기상특보 발효현황] 11.4(금) 10시 기준</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="bottom">
+				<div class="btn--link">
+					<a href="./m35-1.html">
+						<span class="btn--link__icon"></span>
+						<span class="btn--link__text t-point">내위치 보기</span>
+					</a>
+				</div>
+			</section>
+		</main>
+		${require('./htmls/nav-forest-fires.html')}
+	</body>
+</html>

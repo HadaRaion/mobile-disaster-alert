@@ -4,23 +4,51 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<title>태풍경보</title>
 	</head>
-	<body>
+	<body class="info m24">
 		${require('./htmls/header-typhoon.html')}
-		<main class="info m24">
+		<main>
 			<section class="info__title">
 				<h1 class="t-brown t-center">강릉, 속초 일대 해일 주의보 발령</h1>
-				<p class="t-date t-sm t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+				<p class="t-date t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
 			</section>
 
-			<section class="info__map">
-				<picture>
-					<source media="(max-width: 690px)" srcset="./images/m24-map.svg" />
-					<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
-					<img src="./images/m24-map.svg" alt="지도" />
-				</picture>
-			</section>
+			<div class="info__wrapper">
+				<section class="info__map">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m24-map.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m24-map-lg.svg" />
+						<img src="./images/m24-map.svg" alt="지도" />
+					</picture>
+				</section>
+
+				<section class="info__detail">
+					<div class="container">
+						<ul class="bullet-list">
+							<li>
+								<p>강릉&nbsp;</p>
+								<p class="t-tomato t-bold">120mm</p>
+							</li>
+							<li>
+								<p>속초&nbsp;</p>
+								<p class="t-tomato t-bold">115mm</p>
+							</li>
+
+							<li>
+								<p>삼척&nbsp;</p>
+								<p class="t-tomato t-bold">110mm</p>
+							</li>
+
+							<li>
+								<p>울진&nbsp;</p>
+								<p class="t-tomato t-bold">105mm</p>
+							</li>
+						</ul>
+					</div>
+				</section>
+			</div>
 
 			<section class="info__etc info__etc--degree">
 				<div class="container">
@@ -28,7 +56,7 @@
 
 					<picture>
 						<source media="(max-width: 690px)" srcset="./images/m24-tsunami.svg" />
-						<!-- <source media="(min-width: 690px)" srcset="./images/m05-1-map-lg.jpg" /> -->
+						<source media="(min-width: 690px)" srcset="./images/m24-tsunami-lg.svg" />
 						<img src="./images/m24-tsunami.svg" alt="지도" />
 					</picture>
 				</div>

@@ -4,9 +4,10 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<title>산불경보</title>
 	</head>
-	<body class="guide-page m29">
+	<body class="my-location m29">
 		${require('./htmls/header-forest-fires.html')}
 		<main>
 			<div class="map">
@@ -18,16 +19,14 @@
 					</picture>
 				</div>
 
+				<div class="map__animation"></div>
+
 				<div class="map__distance">
 					<picture>
 						<source media="(max-width: 690px)" srcset="./images/m29-distance.svg" />
 						<source media="(min-width: 690px)" srcset="./images/m29-distance-lg.svg" />
 						<img src="./images/m29-distance.svg" alt="지도" />
 					</picture>
-				</div>
-
-				<div class="map__pin">
-					<img src="./images/pin-fire.svg" alt="화재지점 이미지" />
 				</div>
 			</div>
 

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="288.006" viewBox="0 0 860 288.006">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1988" data-name="사각형 1988" width="860" height="246" transform="translate(32 960)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <path id="패스_2619" data-name="패스 2619" d="M0,0H552.957V227.585H0Z" fill="#cfe5f5"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="사각형_1960" data-name="사각형 1960" width="553" height="14.092" fill="none" stroke="#fff" stroke-width="2"/>
+    </clipPath>
+    <clipPath id="clip-path-6">
+      <rect id="사각형_1947" data-name="사각형 1947" width="148" height="232" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="m23-tsunami-lg" transform="translate(-32 -918)">
+    <g id="그룹_954" data-name="그룹 954">
+      <path id="패스_2774" data-name="패스 2774" d="M0-7H859.979V281.006H0Z" transform="translate(32 925)" fill="#e3e3e3"/>
+      <g id="그룹_953" data-name="그룹 953">
+        <g id="마스크_그룹_50" data-name="마스크 그룹 50" clip-path="url(#clip-path)">
+          <g id="그룹_938" data-name="그룹 938">
+            <g id="그룹_936" data-name="그룹 936">
+              <g id="그룹_841" data-name="그룹 841" transform="translate(32.021 980.082)">
+                <g id="마스크_그룹_42" data-name="마스크 그룹 42" clip-path="url(#clip-path-2)">
+                  <path id="패스_2616" data-name="패스 2616" d="M552.957,323.935V12.389c-12.646,0-18.32-2.288-25.5-5.182C519.08,3.828,509.585,0,491.505,0s-27.577,3.828-35.954,7.206c-7.179,2.894-12.851,5.182-25.5,5.182S411.743,10.1,404.565,7.206C396.186,3.828,386.691,0,368.613,0s-27.575,3.828-35.952,7.206c-7.179,2.894-12.849,5.182-25.491,5.182S288.857,10.1,281.679,7.206C273.3,3.828,263.8,0,245.727,0s-27.573,3.828-35.95,7.208c-7.177,2.892-12.847,5.18-25.489,5.18S165.977,10.1,158.8,7.206C150.423,3.828,140.931,0,122.854,0S95.288,3.828,86.911,7.206c-7.175,2.894-12.847,5.182-25.487,5.182S43.119,10.1,35.942,7.208C27.566,3.828,18.075,0,0,0V323.935Z" fill="#cfe5f5"/>
+                </g>
+              </g>
+              <g id="그룹_912" data-name="그룹 912" transform="translate(32 990.049)">
+                <g id="그룹_911" data-name="그룹 911" clip-path="url(#clip-path-3)">
+                  <path id="패스_2775" data-name="패스 2775" d="M552.965,12.908a57.23,57.23,0,0,1-25.5-5.183,93.294,93.294,0,0,0-71.9,0,57.208,57.208,0,0,1-25.494,5.183,57.188,57.188,0,0,1-25.5-5.183,93.279,93.279,0,0,0-71.9,0,57.193,57.193,0,0,1-25.491,5.183,57.193,57.193,0,0,1-25.491-5.183A84.205,84.205,0,0,0,245.736.518a84.152,84.152,0,0,0-35.949,7.208,57.21,57.21,0,0,1-25.489,5.18A57.186,57.186,0,0,1,158.81,7.723a84.164,84.164,0,0,0-35.946-7.2A84.142,84.142,0,0,0,86.929,7.725a57.178,57.178,0,0,1-25.487,5.183A57.162,57.162,0,0,1,35.953,7.726,84.1,84.1,0,0,0,.011.518" transform="translate(0.008 0.331)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+                </g>
+              </g>
+            </g>
+            <g id="그룹_937" data-name="그룹 937" transform="translate(367)">
+              <g id="그룹_841-2" data-name="그룹 841" transform="translate(32.021 980.082)">
+                <g id="마스크_그룹_42-2" data-name="마스크 그룹 42" clip-path="url(#clip-path-2)">
+                  <path id="패스_2616-2" data-name="패스 2616" d="M552.957,323.935V12.389c-12.646,0-18.32-2.288-25.5-5.182C519.08,3.828,509.585,0,491.505,0s-27.577,3.828-35.954,7.206c-7.179,2.894-12.851,5.182-25.5,5.182S411.743,10.1,404.565,7.206C396.186,3.828,386.691,0,368.613,0s-27.575,3.828-35.952,7.206c-7.179,2.894-12.849,5.182-25.491,5.182S288.857,10.1,281.679,7.206C273.3,3.828,263.8,0,245.727,0s-27.573,3.828-35.95,7.208c-7.177,2.892-12.847,5.18-25.489,5.18S165.977,10.1,158.8,7.206C150.423,3.828,140.931,0,122.854,0S95.288,3.828,86.911,7.206c-7.175,2.894-12.847,5.182-25.487,5.182S43.119,10.1,35.942,7.208C27.566,3.828,18.075,0,0,0V323.935Z" fill="#cfe5f5"/>
+                </g>
+              </g>
+              <g id="그룹_912-2" data-name="그룹 912" transform="translate(32 990.049)">
+                <g id="그룹_911-2" data-name="그룹 911" clip-path="url(#clip-path-3)">
+                  <path id="패스_2775-2" data-name="패스 2775" d="M552.965,12.908a57.23,57.23,0,0,1-25.5-5.183,93.294,93.294,0,0,0-71.9,0,57.208,57.208,0,0,1-25.494,5.183,57.188,57.188,0,0,1-25.5-5.183,93.279,93.279,0,0,0-71.9,0,57.193,57.193,0,0,1-25.491,5.183,57.193,57.193,0,0,1-25.491-5.183A84.205,84.205,0,0,0,245.736.518a84.152,84.152,0,0,0-35.949,7.208,57.21,57.21,0,0,1-25.489,5.18A57.186,57.186,0,0,1,158.81,7.723a84.164,84.164,0,0,0-35.946-7.2A84.142,84.142,0,0,0,86.929,7.725a57.178,57.178,0,0,1-25.487,5.183A57.162,57.162,0,0,1,35.953,7.726,84.1,84.1,0,0,0,.011.518" transform="translate(0.008 0.331)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g id="그룹_843" data-name="그룹 843" transform="translate(81.857 965.685)">
+          <g id="그룹_842" data-name="그룹 842" transform="translate(0 4)" clip-path="url(#clip-path-6)">
+            <path id="패스_2617" data-name="패스 2617" d="M55.419,42.081h0A21.041,21.041,0,0,0,55.426,0h0a21.041,21.041,0,0,0,0,42.081" transform="translate(25.111 4.105)" fill="#fff"/>
+            <path id="패스_2618" data-name="패스 2618" d="M75.662,195.743a11.527,11.527,0,0,0,22.28,5.924l.1-.3,16.728-41.051a11.617,11.617,0,0,0-1.237-10.471L87.187,110.289l7.272-46.6,7.668,11.5a8.269,8.269,0,0,0,4.082,3.2l.472.225a8.169,8.169,0,0,0,2.116.9l25.949,6.591.318.182a8.551,8.551,0,0,0,4.222,1.146h.034a8.593,8.593,0,0,0,6.113-2.537A8.767,8.767,0,0,0,140.273,70l.293-2.659-.655,2.605-25.289-6.423L95.877,35.394a8.329,8.329,0,0,0-5.332-3.587l-.371-.1a10.292,10.292,0,0,0-2.122-.513l-25.806-3.4a10.174,10.174,0,0,0-6.042,1.051L19.975,46.87a8.283,8.283,0,0,0-3.964,3.347l-.312.411a8.37,8.37,0,0,0-1.332,1.908L1.786,78.128A8.8,8.8,0,0,0,3.425,90.407a8.658,8.658,0,0,0,12.194-1.65,8.852,8.852,0,0,0,1.593-3.492l.215-.628L28.573,61.869l20.6-12.991-7.876,52.4h.355l-.815,3.362L30.519,144.328l-.284.4L4.424,181.249A11.655,11.655,0,0,0,2.056,189.9a11.512,11.512,0,0,0,20.424,5.774l26.722-37.7a11.7,11.7,0,0,0,1.662-3l.222-.456a12.074,12.074,0,0,0,1.1-2.375l12.1-34.532L91.54,158.47Z" transform="translate(0 21.834)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <line id="선_42" data-name="선 42" x2="498.64" transform="translate(32.852 1160.967)" fill="none" stroke="#6d6d6d" stroke-width="1" stroke-dasharray="4 2"/>
+    <line id="선_43" data-name="선 43" x2="498.64" transform="translate(32.852 1116.115)" fill="none" stroke="#6d6d6d" stroke-width="1" stroke-dasharray="4 2"/>
+    <line id="선_44" data-name="선 44" x2="498.64" transform="translate(32.852 1072.923)" fill="none" stroke="#ef760a" stroke-width="2" stroke-dasharray="4 2"/>
+    <line id="선_45" data-name="선 45" x2="498.64" transform="translate(32.852 1028.5)" fill="none" stroke="#dd0021" stroke-width="2" stroke-dasharray="4 2"/>
+    <g id="그룹_942" data-name="그룹 942" transform="translate(38 -1)">
+      <text id="_100cm" data-name="100cm" transform="translate(358 1060)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="700"><tspan x="-65.58" y="0">100cm</tspan></text>
+      <text id="표류_물체_충돌" data-name="표류 물체 충돌" transform="translate(492.508 1060)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo"><tspan x="-119.36" y="0">표류 물체 충돌</tspan></text>
+    </g>
+    <g id="그룹_941" data-name="그룹 941" transform="translate(38.984 -1)">
+      <text id="_70cm" data-name="70cm" transform="translate(359.016 1103)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="700"><tspan x="-53.66" y="0">70cm</tspan></text>
+      <g id="그룹_845" data-name="그룹 845" transform="translate(400.508 1085)">
+        <text id="성인_휩쓸림" data-name="성인 휩쓸림" transform="translate(92 18)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo"><tspan x="-96.48" y="0">성인 휩쓸림</tspan></text>
+      </g>
+    </g>
+    <g id="그룹_940" data-name="그룹 940" transform="translate(38.984)">
+      <text id="_50cm" data-name="50cm" transform="translate(359.016 1146)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="700"><tspan x="-53.66" y="0">50cm</tspan></text>
+      <text id="자동차_표류_" data-name="자동차 표류 " transform="translate(492.508 1146)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo"><tspan x="-100.96" y="0">자동차 표류 </tspan></text>
+    </g>
+    <g id="그룹_939" data-name="그룹 939" transform="translate(38.984 -1.065)">
+      <text id="_30cm" data-name="30cm" transform="translate(359.016 1190)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="700"><tspan x="-53.66" y="0">30cm</tspan></text>
+      <text id="보행_불가능" data-name="보행 불가능" transform="translate(492.508 1190)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo"><tspan x="-96.48" y="0">보행 불가능</tspan></text>
+    </g>
+    <text id="해일_높이와_피해" data-name="해일 높이와 피해" transform="translate(462 960)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Medium, Spoqa Han Sans Neo" font-weight="500"><tspan x="-68.88" y="0">해일 높이와 피해</tspan></text>
+    <text id="지진해일은_일반_파도와는_달리_물이_미는_힘이_강하고_계속_쌓이는_특징이_있습니다._서둘러_높은_곳은_대피하는_것이_최선입니다." data-name="지진해일은 일반 파도와는 달리 물이 미는 힘이 강하고, 계속 쌓이는 특징이 있습니다. 서둘러 높은 곳은 대피하는 것이 최선입니다." transform="translate(586 1040)" fill="#6d6d6d" font-size="20" font-family="SpoqaHanSansNeo-Regular, Spoqa Han Sans Neo"><tspan x="0" y="19">지진해일은 일반 파도와는 달리 </tspan><tspan x="0" y="49">물이 미는 힘이 강하고, 계속 쌓</tspan><tspan x="0" y="79">이는 특징이 있습니다. 서둘러 </tspan><tspan x="0" y="109">높은 곳은 대피하는 것이 최선입</tspan><tspan x="0" y="139">니다.</tspan></text>
+  </g>
+</svg>

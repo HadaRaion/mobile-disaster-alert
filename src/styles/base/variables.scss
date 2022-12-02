@@ -14,13 +14,15 @@ $shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 	--nav-height: 56px;
 	--layout-margin: 1rem;
 	--layout-max-width: 1318px;
+	--wrapper-width: 345px;
+	--wrapper-height: 642px;
 }
 
 @include atFull {
 	:root {
-		--header-height: 52px;
-		--nav-height: 60px;
 		--layout-margin: 20px;
+		--wrapper-width: 691px;
+		--wrapper-height: 550px;
 	}
 }
 
@@ -29,5 +31,7 @@ $shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
 		--header-height: 60px;
 		--nav-height: 72px;
 		--layout-margin: 2rem;
+		--wrapper-width: 924px;
+		--wrapper-height: 1180px;
 	}
 }

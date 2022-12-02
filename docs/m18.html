@@ -4,9 +4,10 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
         <title>지진경보</title>
-    <script defer src="main.2c763deeea47457a25aa.bundle.js"></script><link href="main.2eaeb1da3fe95ace3058.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
-    <body>
+    <script defer src="main.6ef73b20725352d0d5de.bundle.js"></script><link href="main.3a563b50c63856c7ea3d.css" rel="stylesheet"><link href="main.css" rel="stylesheet"></head>
+    <body class="info m18">
         <header>
     <div class="container">
         <div class="menu"></div>
@@ -21,41 +22,146 @@
 </header>
 
         <main>
-            <h1>지진 재난정보</h1>
+            <section class="info__title">
+                <h1 class="t-brown t-center">전남 목포시 용당동 지진경보 발령</h1>
+                <p class="t-date t-brown t-center">기준일시: 2022년 09월 06일 21시</p>
+            </section>
+            <section class="info__maps">
+                <div class="info__map1 active" id="eq-epicenter">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m18-map1.1eafcc103818ffd112a7.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m18-map1-lg.1599b3f8919fcfc4fa58.svg" />
+                        <img src="images/m18-map1.1eafcc103818ffd112a7.svg" alt="진앙정보 지도" />
+                    </picture>
+                </div>
+
+                <div class="info__map2" id="eq-history">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m18-map2.5ad569fbaae79917859b.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m18-map2-lg.d99afc0de4417d7edcd5.svg" />
+                        <img src="images/m18-map2.5ad569fbaae79917859b.svg" alt="과거지진 지역 지도" />
+                    </picture>
+                </div>
+
+                <div class="info__map-btn">
+                    <button class="btn--map t-point active" data-id="eq-epicenter">진앙정보</button>
+                    <button class="btn--map t-point" data-id="eq-history">과거지진</button>
+                </div>
+            </section>
+
+            <section class="info__detail">
+                <div class="container">
+                    <ul class="bullet-list bullet-list-oneline">
+                        <li>
+                            <p>발생시각&nbsp;</p>
+                            <p class="t-tomato t-bold">2022.10.29&nbsp;&nbsp;&nbsp;08:27:14</p>
+                        </li>
+                        <li>
+                            /
+                            <p>발생위치&nbsp;</p>
+                            <p class="t-tomato t-bold">전남 목포시 용당동 북동쪽 12km</p>
+                        </li>
+
+                        <li>
+                            <p>발생깊이&nbsp;</p>
+                            <p class="t-tomato t-bold">12km</p>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="info__etc info__etc--affected-area">
+                <div class="container">
+                    <div class="info__etc__title">
+                        <i></i>
+                        <h3>지진발생 영향 지역</h3>
+                    </div>
+
+                    <div class="magnitude">
+                        <div class="magnitude__table">
+                            <div>
+                                <div class="th">지역</div>
+                                <div class="th">진도</div>
+                            </div>
+                            <div class="magnitude-td magnitude-5 active" data-id="magnitude5">
+                                <div class="td">전남</div>
+                                <div class="td">V</div>
+                                <div class="bar"></div>
+                            </div>
+                            <div class="magnitude-td magnitude-4" data-id="magnitude4">
+                                <div class="td">전북</div>
+                                <div class="td">IV</div>
+                                <div class="bar"></div>
+                            </div>
+                            <div class="magnitude-td magnitude-3" data-id="magnitude3">
+                                <div>
+                                    <div class="td">경남</div>
+                                    <div class="td">III</div>
+                                </div>
+                                <div>
+                                    <div class="td">경북</div>
+                                    <div class="td">III</div>
+                                </div>
+                                <div>
+                                    <div class="td">충남</div>
+                                    <div class="td">III</div>
+                                </div>
+                                <div>
+                                    <div class="td">충북</div>
+                                    <div class="td">III</div>
+                                </div>
+                                <div class="bar"></div>
+                            </div>
+                        </div>
+                        <ul class="magnitude__info">
+                            <li class="tooltip tooltip-magnitude-5 active" id="magnitude5">
+                                거의 모든 사람이 진동을 느끼고, 그릇이나 창문 등이 깨지기도 하며, 불안정한 물체는
+                                넘어짐
+                            </li>
+                            <li class="tooltip tooltip-magnitude-4" id="magnitude4">
+                                실내에서 많은 사람이 느끼고, 밤에는 잠에서 깨기도 하며, 그릇과 창문 등이 흔들림
+                            </li>
+                            <li class="tooltip tooltip-magnitude-3" id="magnitude3">
+                                실내, 특히 건물 위층에 있는 사람이 현저하게 느끼며, 정지하고 있는 차가 약간 흔들림
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
         </main>
         <nav>
     <div class="container">
         <ul class="nav">
             <li class="nav__info">
-                <a href="./m06.html">
+                <a href="./m18.html">
                     <div class="nav-icon nav-icon--info"></div>
                     <div class="nav-title nav-title-info">재난정보</div>
                 </a>
             </li>
 
             <li class="nav__news">
-                <a href="./m18.html">
+                <a href="./m19.html">
                     <div class="nav-icon nav-icon--news"></div>
                     <div class="nav-title nav-title-news">LIVE뉴스</div>
                 </a>
             </li>
 
             <li class="nav__guide">
-                <a href="./m08.html">
+                <a href="./m20.html">
                     <div class="nav-icon nav-icon--guide"></div>
                     <div class="nav-title nav-title-guide">행동요령</div>
                 </a>
             </li>
 
             <li class="nav__cctv">
-                <a href="./m09.html">
+                <a href="./m21.html">
                     <div class="nav-icon nav-icon--cctv"></div>
                     <div class="nav-title nav-title-cctv">CCTV</div>
                 </a>
             </li>
 
-            <li class="nav__tipoff">
-                <a href="./m10.html">
+            <li class="nav__report">
+                <a href="./m22.html">
                     <div class="nav-icon nav-icon--tipoff"></div>
                     <div class="nav-title nav-title-tipoff">실시간제보</div>
                 </a>

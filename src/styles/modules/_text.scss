@@ -1,17 +1,9 @@
-h1 {
-	font-size: 24px;
-}
-
-h3 {
-	font-size: 16px;
-	font-weight: 500;
-	color: $brownish-grey;
-}
-
+// font family
 .t-point {
 	font-family: 'S Core Dream', sans-serif;
 }
 
+// font weight
 .t-bold {
 	font-weight: bold;
 }
@@ -24,6 +16,23 @@ h3 {
 	text-align: center;
 }
 
+// font size
+h1 {
+	font-size: 24px;
+
+	@include atTablet {
+		font-size: 36px;
+	}
+}
+
+p {
+	font-size: 1rem;
+
+	@include atTablet {
+		font-size: 26px;
+	}
+}
+
 .t-xl {
 	font-size: 24px;
 }
@@ -31,7 +40,7 @@ h3 {
 .t-lg {
 	font-size: 20px;
 
-	@include atFull {
+	@include atTablet {
 		font-size: 25px;
 	}
 }
@@ -39,7 +48,7 @@ h3 {
 .t-md {
 	font-size: 1rem;
 
-	@include atFull {
+	@include atTablet {
 		font-size: 20px;
 	}
 }
@@ -47,11 +56,28 @@ h3 {
 .t-sm {
 	font-size: 12px;
 
-	@include atFull {
+	@include atTablet {
 		font-size: 15px;
 	}
 }
 
+.t-date {
+	font-size: 12px;
+
+	@include atTablet {
+		font-size: 20px;
+	}
+}
+
+.t-xs {
+	font-size: 8px;
+
+	@include atTablet {
+		font-size: 12px;
+	}
+}
+
+// font color
 .t-white {
 	color: #fff;
 }

@@ -9,7 +9,7 @@
 		overflow: hidden;
 		margin: 0 auto;
 
-		@include atFull {
+		@include atTablet {
 			width: 150px;
 			height: 42px;
 			border-radius: 21px;
@@ -25,11 +25,11 @@
 		&__icon {
 			width: 20px;
 			height: 20px;
-			background-image: url('../images/icons/icon-pin-sm.svg');
+			background-image: url('../images/icons/icon-location-sm.svg');
 			background-size: cover;
 			transform: translateY(-2px) translateX(-4px);
 
-			@include atFull {
+			@include atTablet {
 				width: 24px;
 				height: 24px;
 				transform: translateY(-3px) translateX(-6px);
@@ -40,7 +40,7 @@
 			font-size: 12px;
 			font-weight: bold;
 
-			@include atFull {
+			@include atTablet {
 				font-size: 1rem;
 				transform: translateY(1px);
 			}
@@ -59,7 +59,7 @@
 		align-items: center;
 		justify-content: center;
 
-		@include atFull {
+		@include atTablet {
 			width: 70px;
 			height: 70px;
 		}
@@ -76,7 +76,7 @@
 			background-image: url('../images/icons/icon-alert.svg');
 			background-size: cover;
 
-			@include atFull {
+			@include atTablet {
 				width: 32px;
 				height: 32px;
 			}
@@ -90,6 +90,97 @@
 			font-size: 10px;
 			font-weight: 500;
 			margin-top: 6px;
+		}
+	}
+
+	&--map {
+		width: 40px;
+		height: 40px;
+		border-radius: 4px;
+		padding: 6px;
+		font-size: 10px;
+		font-weight: bold;
+		color: $greyish;
+		background-color: #fff;
+
+		@include atTablet {
+			width: 68px;
+			height: 68px;
+			padding: 12px;
+			font-size: 17px;
+			line-height: 1.24;
+		}
+
+		&.active {
+			color: #fff;
+			background-color: $warm-grey;
+		}
+	}
+
+	&--social {
+		color: $warm-grey;
+		display: flex;
+		align-items: center;
+
+		p {
+			margin-top: 0 !important;
+			transform: translateY(0.04rem);
+		}
+
+		.icon {
+			display: block;
+			width: 12px;
+			height: 12px;
+			background-size: cover;
+			margin-right: 4px;
+
+			@include atTablet {
+				width: 16px;
+				height: 16px;
+				margin-right: 6px;
+			}
+
+			&--like {
+				background-image: url('../images/icons/icon-heart.svg');
+			}
+
+			&--comment {
+				background-image: url('../images/icons/icon-comment.svg');
+			}
+
+			&--share {
+				background-image: url('../images/icons/icon-share.svg');
+			}
+		}
+	}
+
+	&--add {
+		width: 42px;
+		height: 42px;
+		border-radius: 50%;
+		box-shadow: $shadow;
+		background-color: $tomato-red;
+		background-image: url('../images/icons/icon-add.svg');
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 16px 16px;
+
+		@include atTablet {
+			width: 62px;
+			height: 62px;
+			background-size: 24px 24px;
+		}
+	}
+
+	&--close {
+		width: 18px;
+		height: 18px;
+		background-image: url('../images/icons/icon-close.svg');
+		background-size: cover;
+
+		@include atTablet {
+			width: 28px;
+			height: 28px;
 		}
 	}
 }

@@ -7,7 +7,7 @@
 		justify-content: space-between;
 		background-color: #000;
 
-		@include atFull {
+		@include atTablet {
 			height: 3rem;
 		}
 
