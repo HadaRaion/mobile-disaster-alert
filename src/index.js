@@ -1,5 +1,5 @@
 import './styles/index.scss';
-import './scripts/vh';
+// import './scripts/vh';
 import Glide from '@glidejs/glide';
 
 const alertPage = document.body.classList.contains('alert-page');
