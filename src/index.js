@@ -210,12 +210,13 @@ if (m26Page) {
 
 if (cctvPage) {
 	const selectEl = document.querySelector('select');
+	const nearMeBtn = document.querySelector('.btn--near-me');
 	const map1 = document.querySelector('.map--1');
 	const map2 = document.querySelector('.map--2');
 	const cctvPins = document.querySelectorAll('.map__pins__pin');
 	const cctvVideoModals = document.querySelectorAll('.map__modal > div');
 
-	selectEl.addEventListener('change', e => {
+	selectEl.addEventListener('change', () => {
 		if (e.target.value === 'select') {
 			map1.classList.remove('active');
 			map2.classList.add('active');
@@ -223,6 +224,11 @@ if (cctvPage) {
 			map1.classList.add('active');
 			map2.classList.remove('active');
 		}
+	});
+
+	nearMeBtn.addEventListener('click', () => {
+		map1.classList.remove('active');
+		map2.classList.add('active');
 	});
 
 	map2.onclick = e => openModal(e, cctvPins, cctvVideoModals);

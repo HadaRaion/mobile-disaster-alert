@@ -76,5 +76,11 @@
       <line id="선_61-2" data-name="선 61" x2="11" transform="translate(237.5 341.5)" fill="none" stroke="#ff2300" stroke-width="4"/>
     </g>
     <rect id="사각형_2030" data-name="사각형 2030" width="345" height="642" transform="translate(0 48)" fill="none"/>
+    <g id="사각형_2032" data-name="사각형 2032" transform="translate(140 322)" fill="#fff" stroke="#ff2300" stroke-width="1">
+      <rect width="80" height="42" rx="8" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="41" rx="7.5" fill="none"/>
+    </g>
+    <text id="_35번_국도_통제구간" data-name="35번 국도 
+통제구간" transform="translate(180 340)" fill="#ff2300" font-size="12" font-family="SpoqaHanSansNeo-Bold, Spoqa Han Sans Neo" font-weight="700"><tspan x="-26.436" y="0">35번 국도 </tspan><tspan x="-22.08" y="16">통제구간</tspan></text>
   </g>
 </svg>

@@ -1,15 +1,19 @@
 .report {
 	main {
 		background-color: #ececec;
-		padding: var(--layout-margin) 0;
 	}
 
 	&-list select {
 		color: $brownish-grey;
+		margin-top: var(--layout-margin);
 	}
 
 	&__list {
 		margin-top: var(--layout-margin);
+
+		ul {
+			padding-bottom: var(--layout-margin);
+		}
 	}
 
 	.card {

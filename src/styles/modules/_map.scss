@@ -78,4 +78,17 @@
 			}
 		}
 	}
+
+	&__avatar > video {
+		width: 138px;
+		height: 184px;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+
+		@include atTablet {
+			width: 258px;
+			height: 344px;
+		}
+	}
 }

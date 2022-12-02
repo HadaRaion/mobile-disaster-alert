@@ -11,11 +11,18 @@
 		${require('./htmls/header-forest-fires.html')}
 		<main>
 			<div class="map">
-				<picture>
-					<source media="(max-width: 690px)" srcset="./images/m29-map.svg" />
-					<source media="(min-width: 690px)" srcset="./images/m29-map-lg.svg" />
-					<img src="./images/m29-map.svg" alt="지도" />
-				</picture>
+				<div class="map__bg">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m29-map.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m29-map-lg.svg" />
+						<img src="./images/m29-map.svg" alt="지도" />
+					</picture>
+				</div>
+				<div class="map__avatar">
+					<video muted autoplay loop>
+						<source src="./video/avatar.mp4" type="video/mp4" />
+					</video>
+				</div>
 			</div>
 
 			<section class="top">

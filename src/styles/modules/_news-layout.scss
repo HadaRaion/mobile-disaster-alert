@@ -3,6 +3,19 @@
 	background-color: #000;
 	overflow: hidden;
 
+	main {
+		width: 345px;
+		height: 642px;
+
+		@include atFull {
+			width: 691px;
+			height: 550px;
+		}
+		@include atTablet {
+			width: 924px;
+			height: 1180px;
+		}
+	}
 	.news-video {
 		width: 100%;
 		aspect-ratio: 16 / 9;
@@ -181,6 +194,7 @@
 
 		.btn--chat-screen {
 			display: flex;
+			z-index: 10;
 		}
 	}
 }
