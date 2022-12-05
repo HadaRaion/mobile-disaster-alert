@@ -1,6 +1,12 @@
 import './styles/index.scss';
-// import './scripts/vh';
 import Glide from '@glidejs/glide';
+import FlareLane from '@flarelane/flarelane-web-sdk';
+
+// FlareLane.initialize({
+// 	projectId: '프로젝트ID',
+// 	// 사용중인 별도 이름의 ServiceWorker가 있는 경우 해당 경로
+// 	// serviceWorkerPath: '/otherServiceWorker.js'
+// });
 
 const alertPage = document.body.classList.contains('alert-page');
 const myLocationPage = document.body.classList.contains('my-location');

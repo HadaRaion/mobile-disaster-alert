@@ -29,6 +29,7 @@
 		"webpack-dev-server": "^4.6.0"
 	},
 	"dependencies": {
+		"@flarelane/flarelane-web-sdk": "^0.2.3",
 		"@glidejs/glide": "^3.6.0"
 	}
 }

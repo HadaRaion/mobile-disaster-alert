@@ -13,11 +13,11 @@
 @import './modules/nav';
 @import './modules/list';
 
-// Required Core Stylesheet
+/* Glide Required Core Styles */
 @import 'node_modules/@glidejs/glide/src/assets/sass/glide.core';
 
-// Optional Theme Stylesheet
-// @import 'node_modules/@glidejs/glide/src/assets/sass/glide.theme';
+/* Home */
+@import './modules/home';
 
 /* Main page */
 @import './modules/map';
