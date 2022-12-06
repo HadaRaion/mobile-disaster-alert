@@ -27,19 +27,19 @@
 			height: 20px;
 			background-image: url('../images/icons/icon-location-sm.svg');
 			background-size: cover;
-			transform: translateY(-2px) translateX(-4px);
+			transform: translateY(-1px) translateX(-4px);
 
 			@include atTablet {
 				width: 24px;
 				height: 24px;
-				transform: translateY(-3px) translateX(-6px);
+				transform: translateY(-1px) translateX(-6px);
 			}
 		}
 
 		&__text {
 			font-size: 12px;
 			font-weight: bold;
-			transform: translateY(0.02rem);
+			transform: translateY(1px);
 
 			@include atTablet {
 				font-size: 1rem;

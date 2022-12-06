@@ -12,7 +12,7 @@
 		<main>
 			<div class="wrapper">
 				<section class="news-video">
-					<video muted autoplay>
+					<video muted autoplay loop>
 						<source src="./video/news.mp4" type="video/mp4" />
 					</video>
 
@@ -172,7 +172,12 @@
 						</ul>
 
 						<div class="chat__input">
-							<input class="chat__input__text" type="text" placeholder="채팅하기" />
+							<input
+								class="chat__input__text"
+								type="text"
+								inputmode="none"
+								placeholder="채팅하기"
+							/>
 							<button class="chat__input__send">
 								<svg
 									xmlns="http://www.w3.org/2000/svg"

@@ -96,7 +96,7 @@ if (newsPage) {
 	// ---------- Live News Chat ----------
 	const scrollBox = document.querySelector('.chat__bottom');
 	const chatBox = document.querySelector('.chat__bottom > ul');
-	const submitChat = document.querySelector('.chat__input__send');
+	const inputChat = document.querySelector('.chat__input');
 	let shouldScroll;
 
 	const chatContent = [
@@ -142,7 +142,7 @@ if (newsPage) {
 		},
 	];
 
-	submitChat.addEventListener('click', () => {
+	inputChat.addEventListener('click', () => {
 		chatBox.insertAdjacentHTML(
 			'beforeend',
 			`							
@@ -222,7 +222,7 @@ if (cctvPage) {
 	const cctvPins = document.querySelectorAll('.map__pins__pin');
 	const cctvVideoModals = document.querySelectorAll('.map__modal > div');
 
-	selectEl.addEventListener('change', () => {
+	selectEl.addEventListener('change', e => {
 		if (e.target.value === 'select') {
 			map1.classList.remove('active');
 			map2.classList.add('active');
@@ -233,6 +233,8 @@ if (cctvPage) {
 	});
 
 	nearMeBtn.addEventListener('click', () => {
+		selectEl.value = 'select';
+
 		map1.classList.remove('active');
 		map2.classList.add('active');
 	});

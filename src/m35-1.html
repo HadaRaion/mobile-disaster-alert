@@ -7,7 +7,7 @@
 		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<title>산불경보</title>
 	</head>
-	<body class="my-location m29">
+	<body class="my-location m35">
 		${require('./htmls/header-forest-fires.html')}
 		<main>
 			<div class="map">
@@ -19,7 +19,19 @@
 					</picture>
 				</div>
 
-				<div class="map__animation"></div>
+				<div class="map__avatar">
+					<video muted autoplay loop>
+						<source src="./video/avatar.mp4" type="video/mp4" />
+					</video>
+				</div>
+
+				<div class="map__animation">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m35-animation.svg" />
+						<source media="(min-width: 690px)" srcset="./images/m35-animation-lg.svg" />
+						<img src="./images/m35-animation.svg" alt="지도" />
+					</picture>
+				</div>
 
 				<div class="map__distance">
 					<picture>
@@ -35,9 +47,6 @@
 					<div class="guide">
 						<div class="guide__title">
 							<p class="t-tomato t-bold t-center t-md">내 위치 긴급 대피요령</p>
-							<button class="btn-close">
-								<i class="close"></i>
-							</button>
 						</div>
 
 						<div class="guide__content">
@@ -50,6 +59,8 @@
 								우회하시기 바랍니다.
 							</p>
 						</div>
+
+						<button class="btn--close"></button>
 					</div>
 				</div>
 			</section>

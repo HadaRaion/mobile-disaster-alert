@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
         <title>산불경보</title>
-    <script defer src="main.f283c8684a51404779b8.bundle.js"></script><link href="main.2a07ef37f5447517d586.css" rel="stylesheet"></head>
-    <body class="my-location m29">
+    <script defer src="main.2df28124366ac4507114.bundle.js"></script><link href="main.e6cb27c7378772b13bc0.css" rel="stylesheet"></head>
+    <body class="my-location m35">
         <header>
     <div class="container">
         <div class="menu"></div>
@@ -31,7 +31,19 @@
                     </picture>
                 </div>
 
-                <div class="map__animation"></div>
+                <div class="map__avatar">
+                    <video muted autoplay loop>
+                        <source src="./video/avatar.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+                <div class="map__animation">
+                    <picture>
+                        <source media="(max-width: 690px)" srcset="images/m35-animation.ae2f14597d263756b06f.svg" />
+                        <source media="(min-width: 690px)" srcset="images/m35-animation-lg.4c55214006d3f45b677a.svg" />
+                        <img src="images/m35-animation.ae2f14597d263756b06f.svg" alt="지도" />
+                    </picture>
+                </div>
 
                 <div class="map__distance">
                     <picture>
@@ -47,9 +59,6 @@
                     <div class="guide">
                         <div class="guide__title">
                             <p class="t-tomato t-bold t-center t-md">내 위치 긴급 대피요령</p>
-                            <button class="btn-close">
-                                <i class="close"></i>
-                            </button>
                         </div>
 
                         <div class="guide__content">
@@ -62,6 +71,8 @@
                                 우회하시기 바랍니다.
                             </p>
                         </div>
+
+                        <button class="btn--close"></button>
                     </div>
                 </div>
             </section>
