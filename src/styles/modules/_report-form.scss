@@ -60,7 +60,8 @@ select {
 
 input[type='submit'] {
 	border-radius: 4px;
-	background-color: $greyish-brown;
+	background-color: $tomato-red;
+	font-weight: bold;
 	color: #fff;
 
 	@include atTablet {
@@ -73,14 +74,14 @@ input[type='submit'] {
 	}
 
 	form {
-		// min-height: calc(100vh - var(--header-height) - var(--nav-height) - var(--layout-margin));
-		min-height: 642px;
+		min-height: calc(var(--vh, 1vh) * 100 - var(--header-height) - var(--nav-height));
+		// min-height: 642px;
 		padding-top: var(--layout-margin);
 		display: flex;
 		flex-direction: column;
 
 		@include atTablet {
-			min-height: 1180px;
+			// min-height: 1180px;
 		}
 	}
 

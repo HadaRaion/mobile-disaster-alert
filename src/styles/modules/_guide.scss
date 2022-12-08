@@ -22,7 +22,8 @@
 					border-bottom: 4px solid #fff;
 
 					&.active {
-						color: $greyish-brown;
+						color: $tomato-red;
+						font-weight: bold;
 						border-bottom: 4px solid $tomato-red;
 					}
 				}
@@ -32,7 +33,7 @@
 				height: 212px;
 				padding-top: 36px;
 				padding-bottom: 20px;
-				background-color: #ececec;
+				background-color: #727c7e;
 				display: none;
 
 				&.active {
@@ -54,7 +55,7 @@
 				}
 
 				p {
-					color: $warm-grey;
+					color: #fff;
 					line-height: 1.5;
 					font-size: 16px;
 				}
@@ -153,7 +154,7 @@
 			ul {
 				display: flex;
 				padding: 64px 0 49px;
-				background-color: #ececec;
+				background-color: #727c7e;
 				height: 384px;
 			}
 
@@ -166,7 +167,7 @@
 				}
 
 				.t-md {
-					color: $warm-grey;
+					color: #fff;
 					line-height: 1.6;
 				}
 			}
@@ -204,7 +205,7 @@
 
 			&__list {
 				flex: 1;
-				background-color: #f8f8f8;
+				background-color: #ececec;
 				padding: 40px 0 0 32px;
 
 				li {

@@ -8,6 +8,15 @@ import FlareLane from '@flarelane/flarelane-web-sdk';
 // 	// serviceWorkerPath: '/otherServiceWorker.js'
 // });
 
+window.addEventListener('load', () => {
+	let vh = window.innerHeight * 0.01;
+	document.documentElement.style.setProperty('--vh', `${vh}px`);
+	window.addEventListener('resize', () => {
+		let vh = window.innerHeight * 0.01;
+		document.documentElement.style.setProperty('--vh', `${vh}px`);
+	});
+});
+
 const alertPage = document.body.classList.contains('alert-page');
 const myLocationPage = document.body.classList.contains('my-location');
 const infoPage = document.body.classList.contains('info');
@@ -80,20 +89,6 @@ if (m18Page) {
 }
 
 if (newsPage) {
-	// ---------- Live News Layout ----------
-	const layoutBody = document.querySelector('body');
-	const fullscreenBtn = document.querySelector('.btn--fullscreen');
-	const closeChatBtn = document.querySelector('.btn--closechat');
-	const backToChatBtn = document.querySelector('.btn--chat-screen');
-
-	fullscreenBtn.onclick = () => layoutBody.classList.add('news--horizontal');
-	closeChatBtn.onclick = () => layoutBody.classList.add('full');
-	backToChatBtn.addEventListener('click', () => {
-		layoutBody.classList.remove('full');
-		layoutBody.classList.remove('news--horizontal');
-	});
-
-	// ---------- Live News Chat ----------
 	const scrollBox = document.querySelector('.chat__bottom');
 	const chatBox = document.querySelector('.chat__bottom > ul');
 	const inputChat = document.querySelector('.chat__input');
@@ -187,7 +182,6 @@ if (newsPage) {
 
 	// ---------- Live News Sound Play ----------
 	const newsVideo = document.querySelector('.news-video > video');
-	newsVideo.addEventListener('click', () => (newsVideo.muted = !newsVideo.muted));
 }
 
 if (guidePage) {
@@ -227,6 +221,7 @@ if (cctvPage) {
 			map1.classList.remove('active');
 			map2.classList.add('active');
 		} else {
+			nearMeBtn.classList.remove('active');
 			map1.classList.add('active');
 			map2.classList.remove('active');
 		}
@@ -235,6 +230,7 @@ if (cctvPage) {
 	nearMeBtn.addEventListener('click', () => {
 		selectEl.value = 'select';
 
+		nearMeBtn.classList.add('active');
 		map1.classList.remove('active');
 		map2.classList.add('active');
 	});

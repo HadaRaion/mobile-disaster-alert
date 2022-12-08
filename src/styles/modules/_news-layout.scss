@@ -4,17 +4,19 @@
 	overflow: hidden;
 
 	main {
-		width: 345px;
-		height: 642px;
+		width: 100%;
+		height: calc(var(--vh, 1vh) * 100 - var(--header-height) - var(--nav-height));
+		// width: 345px;
+		// height: 642px;
 
-		@include atFull {
-			width: 691px;
-			height: 550px;
-		}
-		@include atTablet {
-			width: 924px;
-			height: 1180px;
-		}
+		// @include atFull {
+		// 	width: 691px;
+		// 	height: 550px;
+		// }
+		// @include atTablet {
+		// 	width: 924px;
+		// 	height: 1180px;
+		// }
 	}
 	.news-video {
 		width: 100%;
@@ -22,57 +24,18 @@
 		background-color: #000;
 		overflow: hidden;
 		position: relative;
+		flex-shrink: 0;
 
 		video {
 			width: 100%;
-		}
-
-		button {
-			width: 28px;
-			height: 28px;
-			border-radius: 50%;
-			position: absolute;
-			bottom: 16px;
-			right: 30px;
-			align-items: center;
-			justify-content: center;
-			display: none;
-
-			@include atTablet {
-				width: 40px;
-				height: 40px;
-				bottom: 160px;
-				right: 32px;
-			}
-
-			&::before {
-				content: '';
-				display: block;
-				width: 100%;
-				height: 100%;
-				border-radius: 50%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				background-color: $greyish-brown;
-				opacity: 0.5;
-			}
-
-			svg {
-				position: absolute;
-				width: 12px;
-				height: 12px;
-
-				@include atTablet {
-					width: 17px;
-					height: 17px;
-				}
-			}
 		}
 	}
 
 	.chat {
 		position: relative;
+		flex: 1;
+		display: flex;
+		flex-direction: column;
 
 		&__top {
 			& > .container {
@@ -122,79 +85,6 @@
 			@include atTablet {
 				bottom: 104px;
 			}
-		}
-	}
-
-	&--horizontal {
-		.wrapper {
-			width: var(--wrapper-height);
-			height: var(--wrapper-width);
-			transform: rotate(90deg);
-			transform-origin: calc(var(--wrapper-width) / 2) calc(var(--wrapper-width) / 2);
-			position: absolute;
-			left: 0px;
-			display: flex;
-		}
-
-		.news-video {
-			aspect-ratio: auto;
-			display: flex;
-		}
-
-		.chat {
-			flex: 1 0 224px;
-			display: flex;
-			flex-direction: column;
-
-			@include atTablet {
-				height: var(--wrapper-width);
-				flex: 1 0 368px;
-				height: auto;
-			}
-
-			.btn--fullscreen {
-				display: none;
-			}
-
-			.btn--closechat {
-				display: block;
-			}
-
-			&__bottom {
-				flex: 1;
-
-				ul {
-					padding-bottom: 40px;
-
-					@include atTablet {
-						padding-bottom: 80px;
-					}
-				}
-			}
-
-			&__input {
-				position: fixed;
-				bottom: 16px;
-				right: 16px;
-				width: 191px;
-
-				@include atTablet {
-					width: 304px;
-					bottom: 30px;
-					right: 30px;
-				}
-			}
-		}
-	}
-
-	&.full {
-		.chat {
-			display: none;
-		}
-
-		.btn--chat-screen {
-			display: flex;
-			z-index: 10;
 		}
 	}
 }
