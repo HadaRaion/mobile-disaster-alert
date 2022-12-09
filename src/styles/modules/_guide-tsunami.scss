@@ -1,41 +1,7 @@
 .m26 {
-	// &.guide .mobile__tips {
-	// 	.tab-content {
-	// 		// height: 258px;
-	// 		padding-top: 36px;
-	// 		padding-bottom: 20px;
-	// 		background-color: #ececec;
-	// 		display: none;
-
-	// 		&.active {
-	// 			display: flex;
-	// 			flex-direction: column;
-	// 			justify-content: space-between;
-	// 			align-items: center;
-	// 		}
-
-	// 		.tab-content__img {
-	// 			width: 88px;
-	// 			height: 88px;
-
-	// 			overflow: hidden;
-
-	// 			> img {
-	// 				width: 100%;
-	// 			}
-	// 		}
-
-	// 		p {
-	// 			color: $warm-grey;
-	// 			line-height: 1.5;
-	// 			font-size: 16px;
-	// 		}
-	// 	}
-	// }
-
 	.mobile__tips {
 		height: 255px;
-		background-color: #ececec;
+		background-color: #727c7e;
 	}
 
 	.glide__slide {
@@ -58,9 +24,9 @@
 		}
 
 		p {
-			color: $warm-grey;
 			line-height: 1.5;
 			font-size: 16px;
+			color: #fff;
 		}
 	}
 
@@ -75,7 +41,7 @@
 	}
 
 	.glide__bullet {
-		background-color: $pinkish-grey;
+		background-color: $greyish;
 		width: 7px;
 		height: 7px;
 		padding: 0;
@@ -89,7 +55,7 @@
 	}
 
 	.glide__bullet--active {
-		background-color: $greyish-brown;
+		background-color: #fff;
 	}
 
 	.mobile__shelter {

@@ -5,12 +5,209 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-		<title>태풍경보</title>
+		<title>침수경보</title>
 	</head>
-	<body class="cctv">
+	<body class="report report-list">
 		${require('./htmls/header-flood.html')}
-		<main></main>
+		<main>
+			<section class="report__select">
+				<div class="container">
+					<select>
+						<option value="all">전체보기</option>
+						<option value="5km">5km 이내</option>
+						<option value="10km">10km 이내</option>
+						<option value="30Km">30Km 이내</option>
+						<option value="100km">100km 이내</option>
+					</select>
+				</div>
+			</section>
 
+			<section class="report__list">
+				<ul class="container">
+					<li class="card">
+						<div class="card__text t-brown">
+							<div class="card__text--title">
+								<p class="t-bold t-date">서귀포시 대정읍</p>
+								<span class="t-xs">1시간 전</span>
+							</div>
+							<p class="t-date">서귀포시 대정읍 영락리입니다. 집중호우로 주택 등이 침수됐습니다.</p>
+
+							<div class="card__social card__social--md">
+								<button class="btn--social">
+									<i class="icon icon--like"></i>
+									<p class="t-xs">609</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--comment"></i>
+									<p class="t-xs">120</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--share"></i>
+									<p class="t-xs">공유</p>
+								</button>
+							</div>
+						</div>
+
+						<div class="card__image">
+							<img src="./images/report-1.webp" alt="집중호우 제보 사진" />
+						</div>
+
+						<div class="card__social">
+							<button class="btn--social">
+								<i class="icon icon--like"></i>
+								<p class="t-xs">609</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--comment"></i>
+								<p class="t-xs">120</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--share"></i>
+								<p class="t-xs">공유</p>
+							</button>
+						</div>
+					</li>
+
+					<li class="card">
+						<div class="card__text t-brown">
+							<div class="card__text--title">
+								<p class="t-bold t-date">서귀포시 대정읍 상모리</p>
+								<span class="t-xs">2시간 전</span>
+							</div>
+							<p class="t-date">
+								서귀포시 대정읍 상모리 송악산 인근 길과 밭, 상가 주차장 침수 상가 주차장 침수.
+							</p>
+							<div class="card__social card__social--md">
+								<button class="btn--social">
+									<i class="icon icon--like"></i>
+									<p class="t-xs">609</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--comment"></i>
+									<p class="t-xs">120</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--share"></i>
+									<p class="t-xs">공유</p>
+								</button>
+							</div>
+						</div>
+
+						<div class="card__image">
+							<img src="./images/report-2.webp" alt="집중호우 제보 사진" />
+						</div>
+
+						<div class="card__social">
+							<button class="btn--social">
+								<i class="icon icon--like"></i>
+								<p class="t-xs">609</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--comment"></i>
+								<p class="t-xs">120</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--share"></i>
+								<p class="t-xs">공유</p>
+							</button>
+						</div>
+					</li>
+
+					<li class="card">
+						<div class="card__text t-brown">
+							<div class="card__text--title">
+								<p class="t-bold t-date">서귀포시 대정읍 신도리</p>
+								<span class="t-xs">2시간 전</span>
+							</div>
+							<p class="t-date">
+								도로가 침수됐고, 소하천이 넘치려 하고 있습니다. 도로가 침수됐고, 소하천이 넘치려
+								하고 있습니다.
+							</p>
+
+							<div class="card__social card__social--md">
+								<button class="btn--social">
+									<i class="icon icon--like"></i>
+									<p class="t-xs">609</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--comment"></i>
+									<p class="t-xs">120</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--share"></i>
+									<p class="t-xs">공유</p>
+								</button>
+							</div>
+						</div>
+
+						<div class="card__image">
+							<img src="./images/report-3.webp" alt="집중호우 제보 사진" />
+						</div>
+
+						<div class="card__social">
+							<button class="btn--social">
+								<i class="icon icon--like"></i>
+								<p class="t-xs">609</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--comment"></i>
+								<p class="t-xs">120</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--share"></i>
+								<p class="t-xs">공유</p>
+							</button>
+						</div>
+					</li>
+
+					<li class="card">
+						<div class="card__text t-brown">
+							<div class="card__text--title">
+								<p class="t-bold t-date">서귀포시 대정읍 상모리</p>
+								<span class="t-xs">2시간 전</span>
+							</div>
+							<p class="t-date">서귀포시 대정읍 상모리 송악산 인근 길과 밭, 상가 주차장 침수</p>
+
+							<div class="card__social card__social--md">
+								<button class="btn--social">
+									<i class="icon icon--like"></i>
+									<p class="t-xs">609</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--comment"></i>
+									<p class="t-xs">120</p>
+								</button>
+								<button class="btn--social">
+									<i class="icon icon--share"></i>
+									<p class="t-xs">공유</p>
+								</button>
+							</div>
+						</div>
+
+						<div class="card__image">
+							<img src="./images/report-4.webp" alt="집중호우 제보 사진" />
+						</div>
+
+						<div class="card__social">
+							<button class="btn--social">
+								<i class="icon icon--like"></i>
+								<p class="t-xs">609</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--comment"></i>
+								<p class="t-xs">120</p>
+							</button>
+							<button class="btn--social">
+								<i class="icon icon--share"></i>
+								<p class="t-xs">공유</p>
+							</button>
+						</div>
+					</li>
+				</ul>
+			</section>
+
+			<a href="./m16-1.html" class="btn--add"></a>
+		</main>
 		${require('./htmls/nav-flood.html')}
 	</body>
 </html>

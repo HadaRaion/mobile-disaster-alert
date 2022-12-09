@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<title>지진경보</title>
+	</head>
+	<body class="cctv">
+		${require('./htmls/header-earthquake.html')}
+		<main>
+			<section class="cctv__select container">
+				<select>
+					<option value="all">전체</option>
+					<option value="empty">서울</option>
+					<option value="empty">경기/인천</option>
+					<option value="empty">강원</option>
+					<option value="select">영남</option>
+					<option value="empty">충청</option>
+					<option value="empty">제주</option>
+				</select>
+				<input type="button" class="btn--near-me" value="내주변" />
+			</section>
+
+			<section class="map">
+				<div class="map--1 active">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m09-map.webp" />
+						<source media="(min-width: 690px)" srcset="./images/m09-map-lg.webp" />
+						<img src="./images/m09-map.webp" alt="지도" />
+					</picture>
+				</div>
+				<div class="map--2">
+					<picture>
+						<source media="(max-width: 690px)" srcset="./images/m09-1-map.webp" />
+						<source media="(min-width: 690px)" srcset="./images/m09-1-map-lg.webp" />
+						<img src="./images/m09-1-map.webp" alt="지도" />
+					</picture>
+					<div class="map__pins">
+						<div class="mylocation"></div>
+						<div class="map__pins__pin cctv1" data-id="cctv1"></div>
+						<div class="map__pins__pin cctv2" data-id="cctv2"></div>
+						<div class="map__pins__pin cctv3" data-id="cctv3"></div>
+						<div class="map__pins__pin cctv4" data-id="cctv4"></div>
+						<div class="map__pins__pin cctv5" data-id="cctv5"></div>
+					</div>
+
+					<div class="map__modal">
+						<div class="map__modal--1" id="cctv1">
+							<p class="t-tomato t-bold">통영 영운항</p>
+							<video muted autoplay loop>
+								<source src="./video/cctv-busan.mp4" type="video/mp4" />
+							</video>
+							<button class="btn--close"></button>
+						</div>
+
+						<div class="map__modal--2" id="cctv2">
+							<p class="t-tomato t-bold">부산 해운대</p>
+							<video muted autoplay loop>
+								<source src="./video/cctv-tongyeong.mp4" type="video/mp4" />
+							</video>
+							<button class="btn--close"></button>
+						</div>
+
+						<div class="map__modal--3" id="cctv3">
+							<p class="t-tomato t-bold">함양울산고속도로</p>
+							<video muted autoplay loop>
+								<source src="./video/cctv-busan.mp4" type="video/mp4" />
+							</video>
+							<button class="btn--close"></button>
+						</div>
+						<div class="map__modal--4" id="cctv4">
+							<p class="t-tomato t-bold">대구 연경저수</p>
+							<video muted autoplay loop>
+								<source src="./video/cctv-tongyeong.mp4" type="video/mp4" />
+							</video>
+							<button class="btn--close"></button>
+						</div>
+
+						<div class="map__modal--5" id="cctv5">
+							<p class="t-tomato t-bold">포항 죽천항</p>
+							<video muted autoplay loop>
+								<source src="./video/cctv-tongyeong.mp4" type="video/mp4" />
+							</video>
+							<button class="btn--close"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		${require('./htmls/nav-earthquake.html')}
+	</body>
+</html>

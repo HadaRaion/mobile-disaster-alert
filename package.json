@@ -1,6 +1,6 @@
 {
 	"name": "재난경보",
-	"version": "1.1",
+	"version": "1.2",
 	"description": "차량용 재난 약자를 위한 재난경보",
 	"scripts": {
 		"start": "webpack serve",
