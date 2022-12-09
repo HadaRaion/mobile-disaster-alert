@@ -1,12 +1,5 @@
 import './styles/index.scss';
 import Glide from '@glidejs/glide';
-import FlareLane from '@flarelane/flarelane-web-sdk';
-
-// FlareLane.initialize({
-// 	projectId: '프로젝트ID',
-// 	// 사용중인 별도 이름의 ServiceWorker가 있는 경우 해당 경로
-// 	// serviceWorkerPath: '/otherServiceWorker.js'
-// });
 
 window.addEventListener('load', () => {
 	let vh = window.innerHeight * 0.01;

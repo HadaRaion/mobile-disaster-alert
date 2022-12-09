@@ -11,7 +11,7 @@
             const el = document.createElement('pwa-update');
             document.body.appendChild(el);
         </script>
-    <script defer src="main.6cd42ac84713dd092508.bundle.js"></script><link href="main.cf9772688214313058e6.css" rel="stylesheet"></head>
+    <script defer src="main.11e5d88e96c7608e2803.bundle.js"></script><link href="main.b2b1574cdc1e29dd25c4.css" rel="stylesheet"></head>
     <body class="home">
         <main class="container">
             <div class="logo">
@@ -31,6 +31,10 @@
             if (typeof navigator.serviceWorker !== 'undefined') {
                 navigator.serviceWorker.register('sw.js');
             }
+        </script>
+        <script src="https://cdn.flarelane.com/WebSDK.js" charset="UTF-8"></script>
+        <script>
+            FlareLane.initialize({ projectId: 'b5db55ae-07c0-437b-a20b-591f7647f8d3' });
         </script>
     </body>
 </html>
