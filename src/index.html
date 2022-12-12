@@ -6,34 +6,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
 		<title>재난경보서비스</title>
-		<script type="module">
-			import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-			const el = document.createElement('pwa-update');
-			document.body.appendChild(el);
-		</script>
 	</head>
 	<body class="home">
-		<main class="container">
-			<div class="logo">
-				<img src="./images/logo.svg" alt="로고" />
-			</div>
-			<h1 class="t-point">재난경보 알림앱</h1>
-			<ul>
-				<li class="t-md"><a href="./m05.html">태풍경보</a></li>
-				<li class="t-md"><a href="./m11.html">침수경보</a></li>
-				<li class="t-md"><a href="./m23.html">해일경보</a></li>
-				<li class="t-md"><a href="./m17.html">지진경보</a></li>
-				<li class="t-md"><a href="./m29.html">산불경보</a></li>
-				<li class="t-md"><a href="./m35.html">산불경보(수화)</a></li>
-			</ul>
-		</main>
-		<script>
-			if (typeof navigator.serviceWorker !== 'undefined') {
-				navigator.serviceWorker.register('sw.js');
-			}
-		</script>
+		<a href="./menu.html"></a>
 		<script src="https://cdn.flarelane.com/WebSDK.js" charset="UTF-8"></script>
 		<script>
+			FlareLane.initialize({ projectId: 'baceef86-caa6-48c1-bb40-d55b7245dd38' });
 			FlareLane.initialize({ projectId: 'b5db55ae-07c0-437b-a20b-591f7647f8d3' });
 		</script>
 	</body>

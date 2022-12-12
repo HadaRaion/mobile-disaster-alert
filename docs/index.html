@@ -1,40 +1,25 @@
 <!DOCTYPE html>
 <html lang="ko">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
-        <title>재난경보서비스</title>
-        <script type="module">
-            import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-            const el = document.createElement('pwa-update');
-            document.body.appendChild(el);
-        </script>
-    <script defer src="main.11e5d88e96c7608e2803.bundle.js"></script><link href="main.b2b1574cdc1e29dd25c4.css" rel="stylesheet"></head>
-    <body class="home">
-        <main class="container">
-            <div class="logo">
-                <img src="images/logo.7826560e4c12d87320c7.svg" alt="로고" />
-            </div>
-            <h1 class="t-point">재난경보 알림앱</h1>
-            <ul>
-                <li class="t-md"><a href="./m05.html">태풍경보</a></li>
-                <li class="t-md"><a href="./m11.html">침수경보</a></li>
-                <li class="t-md"><a href="./m23.html">해일경보</a></li>
-                <li class="t-md"><a href="./m17.html">지진경보</a></li>
-                <li class="t-md"><a href="./m29.html">산불경보</a></li>
-                <li class="t-md"><a href="./m35.html">산불경보(수화)</a></li>
-            </ul>
-        </main>
-        <script>
-            if (typeof navigator.serviceWorker !== 'undefined') {
-                navigator.serviceWorker.register('sw.js');
-            }
-        </script>
-        <script src="https://cdn.flarelane.com/WebSDK.js" charset="UTF-8"></script>
-        <script>
-            FlareLane.initialize({ projectId: 'b5db55ae-07c0-437b-a20b-591f7647f8d3' });
-        </script>
-    </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+		<title>재난경보서비스</title>
+		<script defer src="main.11e5d88e96c7608e2803.bundle.js"></script>
+		<link href="main.ff11ce7e98cf9a969739.css" rel="stylesheet" />
+	</head>
+	<body class="home">
+		<a href="./menu.html"></a>
+
+		<script src="https://cdn.flarelane.com/WebSDK.js" charset="UTF-8"></script>
+		<script>
+			//태풍알림 (지진/산불)
+			// FlareLane.initialize({ projectId: 'baceef86-caa6-48c1-bb40-d55b7245dd38' });
+			//재난알림 (태풍/침수/해일)
+			// FlareLane.initialize({ projectId: 'd6703eff-59d9-46b9-810f-a7460147fe17' });
+
+			FlareLane.initialize({ projectId: '0fff3fd1-a3dc-490e-a579-3c4f27fb82d2' });
+		</script>
+	</body>
 </html>
